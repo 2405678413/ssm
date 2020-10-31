@@ -41,7 +41,7 @@ html,body{
 	top:18%;
 	border:1px solid #dbdbdb;
 	width:440px;
-	height: 310px;
+	height: 400px;
 }
 .reg form{
 	width:480px;
@@ -70,6 +70,11 @@ html,body{
 	font-size: 20px;
 	padding-left:10px;
 }
+.reg form input[type="password"],.login form input[type="password"]{
+    border:1px solid #dbdbdb;
+    font-size: 20px;
+    padding-left:10px;
+}
 .reg input[type="submit"],.login input[type="submit"]{
 	width:280px;
 	background: #C10000;
@@ -94,7 +99,7 @@ div.reg form p.txtL a{
 .reg form p.txt,.login form p.txt{
 	width:280px;
 	margin:10px auto 0;
-	text-align: right;
+	text-align: center;
 }
 .reg p.txt a,.login p.txt a{
 	color:#666;

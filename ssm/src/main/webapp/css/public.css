@@ -121,6 +121,7 @@ summary {
 }
 
 .fr {
+    margin-top: 30px;
 	float: right;
 }
 
@@ -137,7 +138,7 @@ summary {
 /*********************head********************/
 
 .head {
-	margin-top: 30px;
+	margin-top: 20px;
 	min-width: 1160px;
 	position: relative;
 	border-bottom: 1px solid #e0e0e0;
