@@ -5,15 +5,15 @@
 	<head lang="en">
 		<meta charset="utf-8" />
 		<title>个人信息</title>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/mygrxx.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/mygrxx.css" />
 	</head>
 	<body>
 		<!------------------------------head------------------------------>
 		<div class="head ding">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.jsp"><img src="../img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
 							<a href="#" id="login">登录</a>
@@ -24,10 +24,10 @@
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.jsp"><img src="../img/grzx.png"/></a>
-							<a href="#" class="er1"><img src="../img/ewm.png"/></a>
-							<a href="cart.jsp"><img src="../img/gwc.png"/></a>
-							<p><a href="#"><img src="../img/smewm.png"/></a></p>
+							<a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
+							<a href="#" class="er1"><img src="${pageContext.request.contextPath}/img/ewm.png"/></a>
+							<a href="cart.jsp"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
+							<p><a href="#"><img src="${pageContext.request.contextPath}/img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
@@ -39,31 +39,31 @@
 							<div class="wrapper  clearfix">
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav1.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav2.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav3.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav6.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav7.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
 									</dl>
 								</a>
@@ -108,7 +108,7 @@
 			<div class="wrapper clearfix">
 				<div class="zuo fl">
 					<h3>
-						<a href="#"><img src="../img/tx.png"/></a>
+						<a href="#"><img src="${pageContext.request.contextPath}/img/tx.png"/></a>
 						<p class="clearfix"><span class="fl">[羊羊羊]</span><span class="fr">[退出登录]</span></p>
 					</h3>
 					<div>
@@ -140,7 +140,7 @@
 						<p class="op">6-16 个字符，需使用字母、数字或符号组合，不能使用纯数字、纯字母、纯符号</p>
 						<p><span>重复新密码：</span><input type="text" /></p>
 						<p class="op">请再次输入密码</p>
-						<p><span>验证码：</span><input type="text" /><img src="../img/temp/code.jpg" alt="" /></p>
+						<p><span>验证码：</span><input type="text" /><img src="${pageContext.request.contextPath}/img/temp/code.jpg" alt="" /></p>
 						<p class="op">按右图输入验证码，不区分大小写</p>
 						<input type="submit" value="提交" />
 					</form>
@@ -152,25 +152,25 @@
 		<div class="gotop">
 			<a href="cart.jsp">
 			<dl>
-				<dt><img src="../img/gt1.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
 			</dl>
 			</a>
 			<a href="#" class="dh">
 			<dl>
-				<dt><img src="../img/gt2.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt2.png"/></dt>
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
 			<a href="mygxin.jsp">
 			<dl>
-				<dt><img src="../img/gt3.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>
 			</dl>
 			</a>
 			<a href="#" class="toptop" style="display: none">
 			<dl>
-				<dt><img src="../img/gt4.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt4.png"/></dt>
 				<dd>返回<br />顶部</dd>
 			</dl>
 			</a>
@@ -181,19 +181,19 @@
 			<div class="top">
 				<div class="wrapper">
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot1.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot1.png"/></a>
 						<span class="fl">7天无理由退货</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot2.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot2.png"/></a>
 						<span class="fl">15天免费换货</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot3.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot3.png"/></a>
 						<span class="fl">满599包邮</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot4.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot4.png"/></a>
 						<span class="fl">手机特色服务</span>
 					</div>
 				</div>

@@ -5,8 +5,8 @@
 <head>
     <meta charset="UTF-8">
     <title>注册</title>
-    <link rel="stylesheet" type="text/css" href="../css/public.css"/>
-    <link rel="stylesheet" type="text/css" href="../css/login.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
+    <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/login.css"/>
     <script language="javascript" type="text/javascript">
 
         var code;
@@ -34,7 +34,7 @@
 <!-------------------reg-------------------------->
 <div class="reg">
     <form action="#" method="post">
-        <h1><a href="index.jsp"><img src="../img/temp/tea.png"></a></h1>
+        <h1><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
         <p>用户注册</p>
         <p><input type="text" name="" value="" placeholder="请输入邮箱"></p>
         <p><input type="password" name="" value="" placeholder="请输入密码"></p>

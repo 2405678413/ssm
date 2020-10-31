@@ -5,15 +5,15 @@
 	<head lang="en">
 		<meta charset="utf-8" />
 		<title>最家</title>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/myorder.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/myorder.css" />
 	</head>
 	<body>
 		<!------------------------------head------------------------------>
 		<div class="head ding">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.jsp"><img src="../img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
 							<a href="#" id="login">登录</a>
@@ -24,10 +24,10 @@
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.jsp"><img src="../img/grzx.png"/></a>
-							<a href="#" class="er1"><img src="../img/ewm.png"/></a>
-							<a href="cart.jsp"><img src="../img/gwc.png"/></a>
-							<p><a href="#"><img src="../img/smewm.png"/></a></p>
+							<a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
+							<a href="#" class="er1"><img src="${pageContext.request.contextPath}/img/ewm.png"/></a>
+							<a href="cart.jsp"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
+							<p><a href="#"><img src="${pageContext.request.contextPath}/img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
@@ -39,31 +39,31 @@
 							<div class="wrapper  clearfix">
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav1.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav2.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav3.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav6.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav7.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
 									</dl>
 								</a>
@@ -111,7 +111,7 @@
 			<div class="wrapper clearfix">
 				<div class="zuo fl">
 					<h3>
-						<a href="#"><img src="../img/tx.png"/></a>
+						<a href="#"><img src="${pageContext.request.contextPath}/img/tx.png"/></a>
 						<p class="clearfix"><span class="fl">[羊羊羊]</span><span class="fr">[退出登录]</span></p>
 					</h3>
 					<div>
@@ -147,14 +147,14 @@
 					<div class="sx clearfix">
 						<div class="clearfix">
 							<dl class="fl">
-								<dt><a href="#"><img src="../img/nav3.jpg"/></a></dt>
+								<dt><a href="#"><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></a></dt>
 								<dd><a href="#">家用创意壁挂  釉下彩复古</a></dd>
 								<dd>¥199.00</dd>
 								<dd>16000人评价</dd>
 								<dd><a href="#2">评价</a></dd>
 							</dl>
 							<dl class="fl">
-								<dt><a href="#"><img src="../img/nav3.jpg"/></a></dt>
+								<dt><a href="#"><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></a></dt>
 								<dd><a href="#">家用创意壁挂  釉下彩复古</a></dd>
 								<dd>¥199.00</dd>
 								<dd>16000人评价</dd>
@@ -163,7 +163,7 @@
 						</div>
 						<div class="clearfix">
 							<dl class="fl">
-								<dt><a href="#"><img src="../img/nav3.jpg"/></a></dt>
+								<dt><a href="#"><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></a></dt>
 								<dd><a href="#">家用创意壁挂  釉下彩复古</a></dd>
 								<dd>¥199.00</dd>
 								<dd>16000人评价</dd>
@@ -172,7 +172,7 @@
 						</div>
 						<div class="clearfix" >
 							<dl class="fl">
-								<dt><a href="#"><img src="../img/nav3.jpg"/></a></dt>
+								<dt><a href="#"><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></a></dt>
 								<dd><a href="#">家用创意壁挂  釉下彩复古</a></dd>
 								<dd>¥199.00</dd>
 								<dd>16000人评价</dd>
@@ -203,17 +203,17 @@
 			<div class="mask"></div>
 			<!--评价弹框-->
 			<div class="pj">
-				<div class="clearfix"><a href="#" class="fr gb"><img src="../img/icon4.png"/></a></div>
+				<div class="clearfix"><a href="#" class="fr gb"><img src="${pageContext.request.contextPath}/img/icon4.png"/></a></div>
 				<h3>商品评分</h3>
 				<form action="#" method="get">
 					<div class="clearfix">
 						<p class="fl">请打分：</p>
 						<p class="fl" id="xin">
-							<a href="#2"><img src="../img/xin.png"/></a>
-							<a href="#2"><img src="../img/xin.png"/></a>
-							<a href="#2"><img src="../img/xin.png"/></a>
-							<a href="#2"><img src="../img/xin.png"/></a>
-							<a href="#2"><img src="../img/xin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/xin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/xin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/xin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/xin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/xin.png"/></a>
 						</p>
 					</div>
 					<textarea name="" rows="" cols="" placeholder="请输入评价" ></textarea>
@@ -225,17 +225,17 @@
 			</div>
 			<!--查看评价-->
 			<div class="chak">
-				<div class="clearfix"><a href="#" class="fr gb"><img src="../img/icon4.png"/></a></div>
+				<div class="clearfix"><a href="#" class="fr gb"><img src="${pageContext.request.contextPath}/img/icon4.png"/></a></div>
 				<h3>商品评分</h3>
 				<form action="#" method="get">
 					<div class="clearfix">
 						<p class="fl">请打分：</p>
 						<p class="fl" id="xin">
-							<a href="#2"><img src="../img/hxin.png"/></a>
-							<a href="#2"><img src="../img/hxin.png"/></a>
-							<a href="#2"><img src="../img/hxin.png"/></a>
-							<a href="#2"><img src="../img/hxin.png"/></a>
-							<a href="#2"><img src="../img/hxin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/hxin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/hxin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/hxin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/hxin.png"/></a>
+							<a href="#2"><img src="${pageContext.request.contextPath}/img/hxin.png"/></a>
 						</p>
 					</div>
 					<textarea name="" rows="" cols="" placeholder="请输入评价" >挺好的挺好的挺好的~五分好评</textarea>
@@ -253,25 +253,25 @@
 		<div class="gotop">
 			<a href="cart.jsp">
 			<dl>
-				<dt><img src="../img/gt1.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
 			</dl>
 			</a>
 			<a href="#" class="dh">
 			<dl>
-				<dt><img src="../img/gt2.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt2.png"/></dt>
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
 			<a href="mygxin.jsp">
 			<dl>
-				<dt><img src="../img/gt3.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>
 			</dl>
 			</a>
 			<a href="#" class="toptop" style="display: none">
 			<dl>
-				<dt><img src="../img/gt4.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt4.png"/></dt>
 				<dd>返回<br />顶部</dd>
 			</dl>
 			</a>
@@ -282,19 +282,19 @@
 			<div class="top">
 				<div class="wrapper">
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot1.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot1.png"/></a>
 						<span class="fl">7天无理由退货</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot2.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot2.png"/></a>
 						<span class="fl">15天免费换货</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot3.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot3.png"/></a>
 						<span class="fl">满599包邮</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot4.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot4.png"/></a>
 						<span class="fl">手机特色服务</span>
 					</div>
 				</div>

@@ -5,9 +5,9 @@
 	<head lang="en">
 		<meta charset="utf-8" />
 		<title>forget</title>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/proList.css" />
-		<link rel="stylesheet" type="text/css" href="../css/forget.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/proList.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/forget.css" />
 	</head>
 	<body>
 		<!----------------------------------------order------------------>
@@ -15,7 +15,7 @@
 			<!-----------------logo------------------->
 			<div class="logo">
 				<h1 class="wrapper clearfix">
-					<a href="index.jsp"><img class="fl" src="../img/temp/logo.png"></a>
+					<a href="index.jsp"><img class="fl" src="${pageContext.request.contextPath}/img/temp/logo.png"></a>
 				</h1>
 			</div>
 			<div class="forCon">
@@ -30,7 +30,7 @@
 					<form action="#" method="post" class="one">
 						<input type="text" value="" placeholder="昵称/邮箱"><label>请输入昵称/邮箱</label><br />
 						<input type="text" value="" placeholder="验证码"><label>请输入验证码</label><br />
-						<img src="../img/temp/code.jpg"><br>
+						<img src="${pageContext.request.contextPath}/img/temp/code.jpg"><br>
 						<input type="button" value="下一步" class="next">
 					</form>
 					<!--步骤2-->

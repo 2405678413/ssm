@@ -4,15 +4,15 @@
 	<head lang="en">
 		<meta charset="utf-8" />
 		<title>桌布</title>
-		<link rel="stylesheet" type="text/css" href="../css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="../css/proList.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/proList.css"/>
 	</head>
 	<body>
 		<!------------------------------head------------------------------>
 		<div class="head">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.jsp"><img src="../img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
 							<a href="#" id="login">登录</a>
@@ -23,10 +23,10 @@
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.jsp"><img src="../img/grzx.png"/></a>
-							<a href="#" class="er1"><img src="../img/ewm.png"/></a>
-							<a href="cart.jsp"><img src="../img/gwc.png"/></a>
-							<p><a href="#"><img src="../img/smewm.png"/></a></p>
+							<a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
+							<a href="#" class="er1"><img src="${pageContext.request.contextPath}/img/ewm.png"/></a>
+							<a href="cart.jsp"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
+							<p><a href="#"><img src="${pageContext.request.contextPath}/img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
@@ -38,31 +38,31 @@
 							<div class="wrapper  clearfix">
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav1.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav2.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav3.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav6.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
 								<a href="paint.jsp">
 									<dl>
-										<dt><img src="../img/nav7.jpg"/></dt>
+										<dt><img src="${pageContext.request.contextPath}/img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
 									</dl>
 								</a>
@@ -128,7 +128,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb08.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb08.jpg"></dt>
 						<dd>【最家】清新乡村田园桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -137,7 +137,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb07.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb07.jpg"></dt>
 						<dd>【最家】法式乡村复古桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -146,7 +146,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb06.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb06.jpg"></dt>
 						<dd>【最家】清新简约防水桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -155,7 +155,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb05.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb05.jpg"></dt>
 						<dd>【最家】北欧圣诞节防水桌布红色</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -164,7 +164,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-					<dt><img src="../img/temp/zb04.jpg"></dt>
+					<dt><img src="${pageContext.request.contextPath}/img/temp/zb04.jpg"></dt>
 					<dd>【最家】田园桌布防水防油布</dd>
 					<dd>￥47.90</dd>
 				</dl>
@@ -173,7 +173,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-					<dt><img src="../img/temp/zb03.jpg"></dt>
+					<dt><img src="${pageContext.request.contextPath}/img/temp/zb03.jpg"></dt>
 					<dd>【最家】欧式家用小方桌台布</dd>
 					<dd>￥20.90</dd>
 				</dl>
@@ -182,7 +182,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb02.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb02.jpg"></dt>
 						<dd>【最家】地中海格子桌布</dd>
 						<dd>￥37.90</dd>
 					</dl>
@@ -191,7 +191,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb01.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb01.jpg"></dt>
 						<dd>【最家】欧式田园棉麻桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -200,7 +200,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb08.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb08.jpg"></dt>
 						<dd>【最家】清新乡村田园桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -209,7 +209,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb07.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb07.jpg"></dt>
 						<dd>【最家】法式乡村复古桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -218,7 +218,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb06.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb06.jpg"></dt>
 						<dd>【最家】清新简约防水桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -227,7 +227,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb05.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb05.jpg"></dt>
 						<dd>【最家】北欧圣诞节防水桌布红色</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -236,7 +236,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-					<dt><img src="../img/temp/zb04.jpg"></dt>
+					<dt><img src="${pageContext.request.contextPath}/img/temp/zb04.jpg"></dt>
 					<dd>【最家】田园桌布防水防油布</dd>
 					<dd>￥47.90</dd>
 				</dl>
@@ -245,7 +245,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-					<dt><img src="../img/temp/zb03.jpg"></dt>
+					<dt><img src="${pageContext.request.contextPath}/img/temp/zb03.jpg"></dt>
 					<dd>【最家】欧式家用小方桌台布</dd>
 					<dd>￥20.90</dd>
 				</dl>
@@ -254,7 +254,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb02.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb02.jpg"></dt>
 						<dd>【最家】地中海格子桌布</dd>
 						<dd>￥37.90</dd>
 					</dl>
@@ -263,7 +263,7 @@
 			<li>
 				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="../img/temp/zb01.jpg"></dt>
+						<dt><img src="${pageContext.request.contextPath}/img/temp/zb01.jpg"></dt>
 						<dd>【最家】欧式田园棉麻桌布</dd>
 						<dd>￥17.90</dd>
 					</dl>
@@ -274,35 +274,35 @@
 		<div class="mask"></div>
 		<!-------------------mask内容------------------->
 		<div class="proDets">
-			<img class="off" src="../img/temp/off.jpg" />
+			<img class="off" src="${pageContext.request.contextPath}/img/temp/off.jpg" />
 			<div class="tit clearfix">
 				<h4 class="fl">【最家】非洲菊仿真花干花</h4>
 				<span class="fr">￥17.90</span>
 			</div>
 			<div class="proCon clearfix">
 				<div class="proImg fl">
-					<img class="list" src="../img/temp/proDet.jpg"  />
+					<img class="list" src="${pageContext.request.contextPath}/img/temp/proDet.jpg"  />
 					<div class="smallImg clearfix">
-						<img src="../img/temp/proDet01.jpg" data-src="img/temp/proDet01_big.jpg">
-						<img src="../img/temp/proDet02.jpg" data-src="img/temp/proDet02_big.jpg">
-						<img src="../img/temp/proDet03.jpg" data-src="img/temp/proDet03_big.jpg">
-						<img src="../img/temp/proDet04.jpg" data-src="img/temp/proDet04_big.jpg">
+						<img src="${pageContext.request.contextPath}/img/temp/proDet01.jpg" data-src="img/temp/proDet01_big.jpg">
+						<img src="${pageContext.request.contextPath}/img/temp/proDet02.jpg" data-src="img/temp/proDet02_big.jpg">
+						<img src="${pageContext.request.contextPath}/img/temp/proDet03.jpg" data-src="img/temp/proDet03_big.jpg">
+						<img src="${pageContext.request.contextPath}/img/temp/proDet04.jpg" data-src="img/temp/proDet04_big.jpg">
 					</div>
 				</div>
 				<div class="fr">
 					<div class="proIntro">
 						<p>颜色分类</p>
 						<div class="smallImg clearfix categ">
-							<p class="fl"><img src="../img/temp/prosmall01.jpg" alt="白瓷花瓶+20支快乐花" data-src="img/temp/proBig01.jpg"></p>
-							<p class="fl"><img src="../img/temp/prosmall02.jpg" alt="白瓷花瓶+20支兔尾巴草" data-src="img/temp/proBig02.jpg"></p>
-							<p class="fl"><img src="../img/temp/prosmall03.jpg" alt="20支快乐花" data-src="img/temp/proBig03.jpg"></p>
-							<p class="fl"><img src="../img/temp/prosmall04.jpg" alt="20支兔尾巴草" data-src="img/temp/proBig04.jpg"></p>
+							<p class="fl"><img src="${pageContext.request.contextPath}/img/temp/prosmall01.jpg" alt="白瓷花瓶+20支快乐花" data-src="img/temp/proBig01.jpg"></p>
+							<p class="fl"><img src="${pageContext.request.contextPath}/img/temp/prosmall02.jpg" alt="白瓷花瓶+20支兔尾巴草" data-src="img/temp/proBig02.jpg"></p>
+							<p class="fl"><img src="${pageContext.request.contextPath}/img/temp/prosmall03.jpg" alt="20支快乐花" data-src="img/temp/proBig03.jpg"></p>
+							<p class="fl"><img src="${pageContext.request.contextPath}/img/temp/prosmall04.jpg" alt="20支兔尾巴草" data-src="img/temp/proBig04.jpg"></p>
 						</div>
 						<p>数量&nbsp;&nbsp;库存<span>2096</span>件</p>
 						<div class="num clearfix">
-							<img class="fl sub" src="../img/temp/sub.jpg">
+							<img class="fl sub" src="${pageContext.request.contextPath}/img/temp/sub.jpg">
 							<span class="fl" contentEditable="true">1</span>
-							<img class="fl add" src="../img/temp/add.jpg">
+							<img class="fl add" src="${pageContext.request.contextPath}/img/temp/add.jpg">
 							<p class="please fl">请选择商品属性!</p>
 						</div>
 					</div>
@@ -318,26 +318,26 @@
 		<div class="gotop">
 			<a href="cart.jsp">
 			<dl class="goCart">
-				<dt><img src="../img/gt1.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
 				<span>1</span>
 			</dl>
 			</a>
 			<a href="#" class="dh">
 			<dl>
-				<dt><img src="../img/gt2.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt2.png"/></dt>
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
 			<a href="mygxin.jsp">
 			<dl>
-				<dt><img src="../img/gt3.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>
 			</dl>
 			</a>
 			<a href="#" class="toptop" style="display: none;">
 			<dl>
-				<dt><img src="../img/gt4.png"/></dt>
+				<dt><img src="${pageContext.request.contextPath}/img/gt4.png"/></dt>
 				<dd>返回<br />顶部</dd>
 			</dl>
 			</a>
@@ -349,19 +349,19 @@
 			<div class="top">
 				<div class="wrapper">
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot1.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot1.png"/></a>
 						<span class="fl">7天无理由退货</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot2.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot2.png"/></a>
 						<span class="fl">15天免费换货</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot3.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot3.png"/></a>
 						<span class="fl">满599包邮</span>
 					</div>
 					<div class="clearfix">
-						<a href="#2" class="fl"><img src="../img/foot4.png"/></a>
+						<a href="#2" class="fl"><img src="${pageContext.request.contextPath}/img/foot4.png"/></a>
 						<span class="fl">手机特色服务</span>
 					</div>
 				</div>
