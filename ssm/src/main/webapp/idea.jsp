@@ -5,8 +5,8 @@
 	<head lang="en">
 		<meta charset="utf-8" />
 		<title>最家</title>
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPth}/css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPth}/css/idea.css" />
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
+		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/idea.css" />
 	</head>
 	<body>
 		<!------------------------------head------------------------------>
