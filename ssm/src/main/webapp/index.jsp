@@ -1,11 +1,12 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 <html>
     <head lang="en">
         <meta charset="utf-8" />
         <title>tea(｀・ω・´)</title>
-        <link rel="stylesheet" type="text/css" href="css/public.css"/>
-        <link rel="stylesheet" type="text/css" href="css/index.css" />
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css/">
+        <link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/index.css" />
     </head>
     <body>
     <!------------------------------head------------------------------>
