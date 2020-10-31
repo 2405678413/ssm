@@ -95,7 +95,7 @@
 		</div>
 		<!------------------------------banner------------------------------>
 		<div class="banner">
-			<a href="#"><img src="../img/temp/zbBanner.jpg"/></a>
+			<a href="#"><img src="img/temp/zbBanner.jpg"/></a>
 		</div>
 		<!-----------------address------------------------------->
 		<div class="address">
