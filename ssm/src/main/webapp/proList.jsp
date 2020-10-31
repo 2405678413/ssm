@@ -1,8 +1,8 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 	<head lang="en">
 		<meta charset="utf-8" />
-		<title>抱枕</title>
+		<title>干花花艺</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/proList.css"/>
 	</head>
@@ -11,55 +11,55 @@
 		<div class="head">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.html"><img src="img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
-							<a href="login.html" id="login">登录</a>
-							<a href="reg.html" id="reg">注册</a>
+							<a href="#" id="login">登录</a>
+							<a href="#" id="reg">注册</a>
 						</p>
 						<form action="#" method="get" class="fl">
 							<input type="text" placeholder="搜索" />
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.html"><img src="img/grzx.png"/></a>
+							<a href="mygxin.jsp"><img src="img/grzx.png"/></a>
 							<a href="#" class="er1"><img src="img/ewm.png"/></a>
-							<a href="cart.html"><img src="img/gwc.png"/></a>
+							<a href="cart.jsp"><img src="img/gwc.png"/></a>
 							<p><a href="#"><img src="img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
 				<ul class="clearfix" id="bott">
-					<li><a href="index.html">首页</a></li>
+					<li><a href="index.jsp">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
 							<div class="wrapper  clearfix">
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
@@ -69,47 +69,47 @@
 						</div>
 					</li>
 					<li>
-						<a href="flowerDer.html">装饰摆件</a>
+						<a href="flowerDer.jsp">装饰摆件</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="proList.html">干花花艺</a>
-								<a href="vase_proList.html">花瓶花器</a>
+								<a href="proList.jsp">干花花艺</a>
+								<a href="vase_proList.jsp">花瓶花器</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<a href="decoration.html">布艺软饰</a>
+						<a href="decoration.jsp">布艺软饰</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="zbproList.html">桌布罩件</a>
-								<a href="bzproList.html">抱枕靠垫</a>
+								<a href="zbproList.jsp">桌布罩件</a>
+								<a href="bzproList.jsp">抱枕靠垫</a>
 							</div>
 						</div>
 					</li>
-					<li><a href="paint.html">墙式壁挂</a></li>
-					<li><a href="perfume.html">蜡艺香薰</a></li>
-					<li><a href="idea.html">创意家居</a></li>
+					<li><a href="paint.jsp">墙式壁挂</a></li>
+					<li><a href="perfume.jsp">蜡艺香薰</a></li>
+					<li><a href="idea.jsp">创意家居</a></li>
 				</ul>
 			</div>
 		</div>
 		<!------------------------------banner------------------------------>
 		<div class="banner">
-			<a href="#"><img src="img/temp/bzbig.jpg"/></a>
+			<a href="#"><img src="img/temp/banner1.jpg"/></a>
 		</div>
 		<!-----------------address------------------------------->
 		<div class="address">
 			<div class="wrapper clearfix">
-				<a href="index.html">首页</a>
+				<a href="index.jsp">首页</a>
 				<span>/</span>
-				<a href="decoration.html">布艺软饰</a>
+				<a href="flowerDer.jsp">装饰摆件</a>
 				<span>/</span>
-				<a href="bzproList.html" class="on">抱枕</a>
+				<a href="proList.jsp" class="on">干花花艺</a>
 			</div>
 		</div>
 		<!-------------------current---------------------->
 		<div class="current">
 			<div class="wrapper clearfix">
-				<h3 class="fl">桌布</h3> 
+				<h3 class="fl">干花花艺</h3> 
 				<div class="fr choice">
 					<p class="default">排序方式</p>
 					<ul class="select">
@@ -125,147 +125,150 @@
 		<!----------------proList------------------------->
 		<ul class="proList wrapper clearfix">
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz08.jpg"></dt>
-						<dd>【最家】清新乡村田园抱枕</dd>
-						<dd>￥19.90</dd>
-					</dl>
-				</a>
-			</li>
-			<li>
-				<a href="proDetail.html">
-					<dl>
-						<dt><img src="img/temp/bz07.jpg"></dt>
-						<dd>【最家】法式乡村复古抱枕</dd>
+						<dt><img src="img/temp/pro01.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz06.jpg"></dt>
-						<dd>【最家】时尚图案抱枕</dd>
+						<dt><img src="img/temp/pro02.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz05.jpg"></dt>
-						<dd>【最家】北欧时尚现代动物抱枕</dd>
-						<dd>￥59.90</dd>
-					</dl>
-				</a>
-			</li>
-			<li>
-				<a href="proDetail.html">
-					<dl>
-						<dt><img src="img/temp/bz04.jpg"></dt>
-						<dd>【最家】简约格子抱枕</dd>
-						<dd>￥20.90</dd>
-					</dl>
-				</a>
-			</li>
-			<li>
-				<dl>
-					<dt><img src="img/temp/bz03.jpg"></dt>
-					<dd>【最家】纯色棉麻抱枕</dd>
-					<dd>￥47.90</dd>
-				</dl>
-			</li>
-			<li>
-				<a href="proDetail.html">
-					<dl>
-						<dt><img src="img/temp/bz02.jpg"></dt>
-						<dd>【最家】时尚现代叮当猫抱枕</dd>
-						<dd>￥37.90</dd>
-					</dl>
-				</a>
-			</li>
-			<li>
-				<a href="proDetail.html">
-					<dl>
-						<dt><img src="img/temp/bz01.jpg"></dt>
-						<dd>【最家】欧式现代棉麻抱枕</dd>
-						<dd>￥39.90</dd>
-					</dl>
-				</a>
-			</li>
-			<li>
-				<a href="proDetail.html">
-					<dl>
-						<dt><img src="img/temp/bz08.jpg"></dt>
-						<dd>【最家】清新乡村田园抱枕</dd>
-						<dd>￥19.90</dd>
-					</dl>
-				</a>
-			</li>
-			<li>
-				<a href="proDetail.html">
-					<dl>
-						<dt><img src="img/temp/bz07.jpg"></dt>
-						<dd>【最家】法式乡村复古抱枕</dd>
+						<dt><img src="img/temp/pro03.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz06.jpg"></dt>
-						<dd>【最家】时尚图案抱枕</dd>
+						<dt><img src="img/temp/pro04.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz05.jpg"></dt>
-						<dd>【最家】北欧时尚现代动物抱枕</dd>
-						<dd>￥59.90</dd>
+						<dt><img src="img/temp/pro05.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz04.jpg"></dt>
-						<dd>【最家】简约格子抱枕</dd>
-						<dd>￥20.90</dd>
+						<dt><img src="img/temp/pro06.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<dl>
-					<dt><img src="img/temp/bz03.jpg"></dt>
-					<dd>【最家】纯色棉麻抱枕</dd>
-					<dd>￥47.90</dd>
-				</dl>
-			</li>
-			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz02.jpg"></dt>
-						<dd>【最家】时尚现代叮当猫抱枕</dd>
-						<dd>￥37.90</dd>
+						<dt><img src="img/temp/pro07.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/bz01.jpg"></dt>
-						<dd>【最家】欧式现代棉麻抱枕</dd>
-						<dd>￥39.90</dd>
+						<dt><img src="img/temp/pro08.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro01.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro02.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro03.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro04.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro05.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro06.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro07.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
+					</dl>
+				</a>
+			</li>
+			<li>
+				<a href="proDetail.jsp">
+					<dl>
+						<dt><img src="img/temp/pro08.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
+						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 		</ul>
-		
 		<!----------------mask------------------->
 		<div class="mask"></div>
 		<!-------------------mask内容------------------->
@@ -308,11 +311,11 @@
 					</div>
 				</div>
 			</div>
-			<a class="more" href="proDetail.html">查看更多细节</a>
+			<a class="more" href="proDetail.jsp">查看更多细节</a>
 		</div>
 		<!--返回顶部-->
 		<div class="gotop">
-			<a href="cart.html">
+			<a href="cart.jsp">
 			<dl class="goCart">
 				<dt><img src="img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
@@ -325,7 +328,7 @@
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
-			<a href="mygxin.html">
+			<a href="mygxin.jsp">
 			<dl>
 				<dt><img src="img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>

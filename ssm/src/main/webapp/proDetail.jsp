@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 	<head>
 		<meta charset="UTF-8">
@@ -11,7 +11,7 @@
 		<div class="head">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.html"><img src="img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
 							<a href="#" id="login">登录</a>
@@ -22,44 +22,44 @@
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.html"><img src="img/grzx.png"/></a>
+							<a href="mygxin.jsp"><img src="img/grzx.png"/></a>
 							<a href="#" class="er1"><img src="img/ewm.png"/></a>
-							<a href="cart.html"><img src="img/gwc.png"/></a>
+							<a href="cart.jsp"><img src="img/gwc.png"/></a>
 							<p><a href="#"><img src="img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
 				<ul class="clearfix" id="bott">
-					<li><a href="index.html">首页</a></li>
+					<li><a href="index.jsp">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
 							<div class="wrapper  clearfix">
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
@@ -69,37 +69,37 @@
 						</div>
 					</li>
 					<li>
-						<a href="flowerDer.html">装饰摆件</a>
+						<a href="flowerDer.jsp">装饰摆件</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="proList.html">干花花艺</a>
-								<a href="vase_proList.html">花瓶花器</a>
+								<a href="proList.jsp">干花花艺</a>
+								<a href="vase_proList.jsp">花瓶花器</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<a href="decoration.html">布艺软饰</a>
+						<a href="decoration.jsp">布艺软饰</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="zbproList.html">桌布罩件</a>
-								<a href="bzproList.html">抱枕靠垫</a>
+								<a href="zbproList.jsp">桌布罩件</a>
+								<a href="bzproList.jsp">抱枕靠垫</a>
 							</div>
 						</div>
 					</li>
-					<li><a href="paint.html">墙式壁挂</a></li>
-					<li><a href="perfume.html">蜡艺香薰</a></li>
-					<li><a href="idea.html">创意家居</a></li>
+					<li><a href="paint.jsp">墙式壁挂</a></li>
+					<li><a href="perfume.jsp">蜡艺香薰</a></li>
+					<li><a href="idea.jsp">创意家居</a></li>
 				</ul>
 			</div>
 		</div>
 		<!-----------------address------------------------------->
 		<div class="address">
 			<div class="wrapper clearfix">
-				<a href="index.html">首页</a>
+				<a href="index.jsp">首页</a>
 				<span>/</span>
-				<a href="flowerDer.html">装饰摆件</a>
+				<a href="flowerDer.jsp">装饰摆件</a>
 				<span>/</span>
-				<a href="proList.html">干花花艺</a>
+				<a href="proList.jsp">干花花艺</a>
 				<span>/</span>
 				<a href="#" class="on">【最家】非洲菊仿真花干花</a>
 			</div>
@@ -327,35 +327,35 @@
 				<div class="imgCon bd">
 					<div class="likeList clearfix">
 						<div>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like01.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like02.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like03.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like04.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html" class="last">
+							<a href="proDetail.jsp" class="last">
 								<dl>
 									<dt><img src="img/temp/like05.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
@@ -364,35 +364,35 @@
 							</a>
 						</div>
 						<div>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like01.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like02.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like03.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html">
+							<a href="proDetail.jsp">
 								<dl>
 									<dt><img src="img/temp/like04.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
 									<dd>￥193.20</dd>
 								</dl>
 							</a>
-							<a href="proDetail.html" class="last">
+							<a href="proDetail.jsp" class="last">
 								<dl>
 									<dt><img src="img/temp/like05.jpg"></dt>
 									<dd>【最家】复古文艺风玻璃花瓶</dd>
@@ -406,7 +406,7 @@
 		</div>
 		<!--返回顶部-->
 		<div class="gotop">
-			<a href="cart.html">
+			<a href="cart.jsp">
 			<dl class="goCart">
 				<dt><img src="img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
@@ -419,7 +419,7 @@
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
-			<a href="mygxin.html">
+			<a href="mygxin.jsp">
 			<dl>
 				<dt><img src="img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>

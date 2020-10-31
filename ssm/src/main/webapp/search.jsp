@@ -1,17 +1,17 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 	<head lang="en">
 		<meta charset="utf-8" />
-		<title>花瓶花器</title>
+		<title>搜索</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
 		<link rel="stylesheet" type="text/css" href="css/proList.css"/>
 	</head>
 	<body>
 		<!------------------------------head------------------------------>
-		<div class="head">
+		<div class="head ding">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.html"><img src="img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
 							<a href="#" id="login">登录</a>
@@ -22,44 +22,44 @@
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.html"><img src="img/grzx.png"/></a>
+							<a href="mygxin.jsp"><img src="img/grzx.png"/></a>
 							<a href="#" class="er1"><img src="img/ewm.png"/></a>
-							<a href="cart.html"><img src="img/gwc.png"/></a>
+							<a href="cart.jsp"><img src="img/gwc.png"/></a>
 							<p><a href="#"><img src="img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
 				<ul class="clearfix" id="bott">
-					<li><a href="index.html">首页</a></li>
+					<li><a href="index.jsp">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
 							<div class="wrapper  clearfix">
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
@@ -69,47 +69,89 @@
 						</div>
 					</li>
 					<li>
-						<a href="flowerDer.html">装饰摆件</a>
+						<a href="flowerDer.jsp">装饰摆件</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="proList.html">干花花艺</a>
-								<a href="vase_proList.html">花瓶花器</a>
+								<a href="proList.jsp">干花花艺</a>
+								<a href="vase_proList.jsp">花瓶花器</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<a href="decoration.html">布艺软饰</a>
+						<a href="decoration.jsp">布艺软饰</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="zbproList.html">桌布罩件</a>
-								<a href="bzproList.html">抱枕靠垫</a>
+								<a href="zbproList.jsp">桌布罩件</a>
+								<a href="bzproList.jsp">抱枕靠垫</a>
 							</div>
 						</div>
 					</li>
-					<li><a href="paint.html">墙式壁挂</a></li>
-					<li><a href="perfume.html">蜡艺香薰</a></li>
-					<li><a href="idea.html">创意家居</a></li>
+					<li><a href="paint.jsp">墙式壁挂</a></li>
+					<li><a href="perfume.jsp">蜡艺香薰</a></li>
+					<li><a href="idea.jsp">创意家居</a></li>
 				</ul>
 			</div>
 		</div>
-		<!------------------------------banner------------------------------>
-		<div class="banner">
-			<a href="#"><img src="img/temp/banner1.jpg"/></a>
+		<!------------------------------搜索列表------------------------------>
+		<div class="schBox">
+			<ul class="wrapper sch">
+				<li>
+					<h4>干花类型：</h4>
+					<a href="#">干花枝</a>
+					<a href="#">干花包</a>
+					<a href="#">花瓣</a>
+					<a href="#">树叶</a>
+				</li>
+				<li>
+					<h4>摆放空间：</h4>
+					<a href="#">摆放花卉</a>
+					<a href="#">落地花卉</a>
+					<a href="#">挂壁花卉</a>
+					<a href="#">吊篮花卉</a>
+				</li>
+				<li>
+					<h4>干花类型：</h4>
+					<a href="#">干花枝</a>
+					<a href="#">干花包</a>
+					<a href="#">花瓣</a>
+					<a href="#">树叶</a>
+				</li>
+				<li>
+					<h4>适用对象：</h4>
+					<a href="#">朋友/同事</a>
+					<a href="#">客户</a>
+					<a href="#">爱人</a>
+					<a href="#">领导/长辈</a>
+				</li>
+				<li>
+					<h4>家居饰品：</h4>
+					<a href="#">干花/干枝/花瓣</a>
+					<a href="#">仿真花卉</a>
+					<a href="#">花瓶</a>
+					<a href="#">窗型花器</a>
+				</li>
+				<li>
+					<h4>您是不是想找：</h4>
+					<a href="#">干花花束</a>
+					<a href="#">满天星干花</a>
+					<a href="#">干花真花</a>
+					<a href="#">干花花瓶</a>
+					<a href="#">干花批发</a>
+				</li>
+			</ul>
 		</div>
 		<!-----------------address------------------------------->
 		<div class="address">
 			<div class="wrapper clearfix">
-				<a href="index.html">首页</a>
+				<a href="index.jsp">首页</a>
 				<span>/</span>
-				<a href="flowerDer.html">装饰摆件</a>
-				<span>/</span>
-				<a href="vase_proList.html" class="on">花瓶花器</a>
+				<a class="on">搜索“干花”</a>
 			</div>
 		</div>
 		<!-------------------current---------------------->
 		<div class="current">
 			<div class="wrapper clearfix">
-				<h3 class="fl">花瓶花器</h3> 
+				<h3 class="fl">搜索结果：“干花”</h3> 
 				<div class="fr choice">
 					<p class="default">排序方式</p>
 					<ul class="select">
@@ -125,151 +167,150 @@
 		<!----------------proList------------------------->
 		<ul class="proList wrapper clearfix">
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase01.jpg"></dt>
-						<dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
+						<dt><img src="img/temp/pro01.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase02.jpg"></dt>
-						<dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
+						<dt><img src="img/temp/pro02.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase03.jpg"></dt>
-						<dd>【最家】北欧现代陶瓷花瓶摆件</dd>
+						<dt><img src="img/temp/pro03.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase04.jpg"></dt>
-						<dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件 </dd>
+						<dt><img src="img/temp/pro04.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase05.jpg"></dt>
-						<dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
+						<dt><img src="img/temp/pro05.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase06.jpg"></dt>
-						<dd>【最家】仿木竖条纹雅致台面花瓶</dd>
+						<dt><img src="img/temp/pro06.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase07.jpg"></dt>
-						<dd>【最家】地中海风情落地大花瓶</dd>
+						<dt><img src="img/temp/pro07.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase08.jpg"></dt>
-						<dd>【最家】东南亚复古做旧大花瓶</dd>
+						<dt><img src="img/temp/pro08.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase01.jpg"></dt>
-						<dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
+						<dt><img src="img/temp/pro01.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase02.jpg"></dt>
-						<dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
+						<dt><img src="img/temp/pro02.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase03.jpg"></dt>
-						<dd>【最家】北欧现代陶瓷花瓶摆件</dd>
+						<dt><img src="img/temp/pro03.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase04.jpg"></dt>
-						<dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件 </dd>
+						<dt><img src="img/temp/pro04.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase05.jpg"></dt>
-						<dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
+						<dt><img src="img/temp/pro05.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase06.jpg"></dt>
-						<dd>【最家】仿木竖条纹雅致台面花瓶</dd>
+						<dt><img src="img/temp/pro06.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase07.jpg"></dt>
-						<dd>【最家】地中海风情落地大花瓶</dd>
+						<dt><img src="img/temp/pro07.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.html">
+				<a href="proDetail.jsp">
 					<dl>
-						<dt><img src="img/temp/vase08.jpg"></dt>
-						<dd>【最家】东南亚复古做旧大花瓶</dd>
+						<dt><img src="img/temp/pro08.jpg"></dt>
+						<dd>【最家】跳舞兰仿真花干花</dd>
 						<dd>￥17.90</dd>
 					</dl>
 				</a>
 			</li>
 		</ul>
-		
 		<!----------------mask------------------->
 		<div class="mask"></div>
 		<!-------------------mask内容------------------->
@@ -298,7 +339,7 @@
 							<p class="fl"><img src="img/temp/prosmall03.jpg" alt="20支快乐花" data-src="img/temp/proBig03.jpg"></p>
 							<p class="fl"><img src="img/temp/prosmall04.jpg" alt="20支兔尾巴草" data-src="img/temp/proBig04.jpg"></p>
 						</div>
-						<p>数量&nbsp;&nbsp;库存<span>2096</span>件</p>
+						<p>数量</p>
 						<div class="num clearfix">
 							<img class="fl sub" src="img/temp/sub.jpg">
 							<span class="fl" contentEditable="true">1</span>
@@ -312,11 +353,11 @@
 					</div>
 				</div>
 			</div>
-			<a class="more" href="proDetail.html">查看更多细节</a>
+			<a class="more" href="proDetail.jsp">查看更多细节</a>
 		</div>
 		<!--返回顶部-->
 		<div class="gotop">
-			<a href="cart.html">
+			<a href="cart.jsp">
 			<dl class="goCart">
 				<dt><img src="img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
@@ -329,7 +370,7 @@
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
-			<a href="mygxin.html">
+			<a href="mygxin.jsp">
 			<dl>
 				<dt><img src="img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>

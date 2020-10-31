@@ -1,65 +1,66 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
 	<head lang="en">
 		<meta charset="utf-8" />
-		<title>个人信息</title>
+		<title>最家</title>
 		<link rel="stylesheet" type="text/css" href="css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="css/mygrxx.css" />
+		<link rel="stylesheet" type="text/css" href="css/mygxin.css" />
 	</head>
 	<body>
 		<!------------------------------head------------------------------>
 		<div class="head ding">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.html"><img src="img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="index.jsp"><img src="img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
-							<a href="#" id="login">登录</a>
-							<a href="#" id="reg">注册</a>
+							<a href="login.jsp" id="login">登录</a>
+							<a href="reg.jsp" id="reg">注册</a>
 						</p>
 						<form action="#" method="get" class="fl">
 							<input type="text" placeholder="搜索" />
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.html"><img src="img/grzx.png"/></a>
+							<a href="mygxin.jsp"><img src="img/grzx.png"/></a>
 							<a href="#" class="er1"><img src="img/ewm.png"/></a>
-							<a href="cart.html"><img src="img/gwc.png"/></a>
+							<a href="cart.jsp"><img src="img/gwc.png"/></a>
 							<p><a href="#"><img src="img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
 				<ul class="clearfix" id="bott">
-					<li><a href="index.html">首页</a></li>
+					<li><a href="index.jsp">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
 							<div class="wrapper  clearfix">
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
-								<a href="paint.html">
+								<a href="paint.jsp">
 									<dl>
 										<dt><img src="img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
@@ -69,35 +70,37 @@
 						</div>
 					</li>
 					<li>
-						<a href="flowerDer.html">装饰摆件</a>
+						<a href="flowerDer.jsp">装饰摆件</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="proList.html">干花花艺</a>
-								<a href="vase_proList.html">花瓶花器</a>
+								<a href="proList.jsp">干花花艺</a>
+								<a href="vase_proList.jsp">花瓶花器</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<a href="decoration.html">布艺软饰</a>
+						<a href="decoration.jsp">布艺软饰</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="zbproList.html">桌布罩件</a>
-								<a href="bzproList.html">抱枕靠垫</a>
+								<a href="zbproList.jsp">桌布罩件</a>
+								<a href="bzproList.jsp">抱枕靠垫</a>
 							</div>
 						</div>
 					</li>
-					<li><a href="paint.html">墙式壁挂</a></li>
-					<li><a href="perfume.html">蜡艺香薰</a></li>
-					<li><a href="idea.html">创意家居</a></li>
+					<li><a href="paint.jsp">墙式壁挂</a></li>
+					<li><a href="perfume.jsp">蜡艺香薰</a></li>
+					<li><a href="idea.jsp">创意家居</a></li>
 				</ul>
 			</div>
 		</div>
 		<!------------------------------idea------------------------------>
 		<div class="address mt">
 			<div class="wrapper clearfix">
-				<a href="index.html" class="fl">首页</a>
+				<a href="index.jsp" class="fl">首页</a>
 				<span>/</span>
-				<a href="mygxin.html" class="on">个人信息</a>
+				<a href="mygxin.jsp">个人中心</a>
+				<span>/</span>
+				<a href="address.jsp" class="on">地址管理</a>
 			</div>
 		</div>
 		
@@ -112,86 +115,97 @@
 					<div>
 						<h4>我的交易</h4>
 						<ul>
-							<li><a href="cart.html">我的购物车</a></li>
-							<li><a href="myorderq.html">我的订单</a></li>
-							<li><a href="myprod.html">评价晒单</a></li>
+							<li><a href="cart.jsp">我的购物车</a></li>
+							<li><a href="myorderq.jsp">我的订单</a></li>
+							<li><a href="myprod.jsp">评价晒单</a></li>
 						</ul>
 						<h4>个人中心</h4>
 						<ul>
-							<li><a href="mygxin.html">我的中心</a></li>
-							<li><a href="address.html">地址管理</a></li>
+							<li><a href="mygxin.jsp">我的中心</a></li>
+							<li class="on"><a href="address.jsp">地址管理</a></li>
 						</ul>
 						<h4>账户管理</h4>
 						<ul>
-							<li  class="on"><a href="mygrxx.html">个人信息</a></li>
-							<li><a href="remima.html">修改密码</a></li>
+							<li><a href="mygrxx.jsp">个人信息</a></li>
+							<li><a href="remima.jsp">修改密码</a></li>
 						</ul>
 					</div>
 				</div>
 				<div class="you fl">
-					<h2>个人信息</h2>
-					<div class="gxin">
-						<div class="tx"><a href="#"><img src="img/tx.png"/><p id="avatar">修改头像</p></a></div>
-						<div class="xx">
-							<h3 class="clearfix"><strong class="fl">基础资料</strong><a href="#" class="fr" id="edit1">编辑</a></h3>
-							<div>姓名：六六六</div>
-							<div>生日：1995-06-06</div>
-							<div>性别：女</div>
-							<h3>高级设置</h3>
-							<!--<div><span class="fl">银行卡</span><a href="#" class="fr">管理</a></div>-->
-							<div><span class="fl">账号地区：中国</span><a href="#" class="fr" id="edit2">修改</a></div>
+					<h2>收货地址</h2>
+					<div class="add">
+						<div>
+							<a href="#2" id="addxad"><img src="img/jia.png"/></a>
+							<span>添加新地址</span>
 						</div>
-					</div>			
+						<div id="dizhi">
+							<p>六六六</p>
+							<p>1573****666</p>
+							<p>河北省 唐山市 路北区</p>
+							<p>唐山市大学生公寓村（063000）</p>
+						</div>
+					</div>		
 				</div>
 			</div>
 		</div>
+		<!--编辑弹框-->
 		<!--遮罩-->
 		<div class="mask"></div>
-		<!--编辑弹框-->
-		<div class="bj">
-			<div class="clearfix"><a href="#" class="fr gb"><img src="img/icon4.png"/></a></div>
-			<h3>编辑基础资料</h3>
+		<div class="adddz">
 			<form action="#" method="get">
-				<p><label>姓名：</label><input type="text"  value="六六六" /></p>
-				<p><label>生日：</label><input type="text"   /></p>
-				<p>
-					<label>性别：</label>
-					<span><input type="radio"  />男</span>
-					<span><input type="radio"   />女</span>
-				</p>
-				<div class="bc">
-					<input type="button" value="保存"  />
-					<input type="button" value="取消" />
+				<input type="text" placeholder="姓名" class="on" />
+				<input type="text" placeholder="手机号" />
+				<div class="city">
+					<select name="">
+						<option value="省份/自治区">省份/自治区</option>
+					</select>
+					<select>
+						<option value="城市/地区">城市/地区</option>
+					</select>
+					<select>
+						<option value="区/县">区/县</option>
+					</select>
+					<select>
+						<option value="配送区域">配送区域</option>
+					</select>
 				</div>
-			</form>
-		</div>
-		<!--高级设置修改-->
-		<div class="xg">
-			<div class="clearfix"><a href="#" class="fr gb"><img src="img/icon4.png"/></a></div>
-			<h3>切换账号地区</h3>
-			<form action="#" method="get">
-				<p><label>姓名：</label><input type="text"  value="六六六" /></p>
+				<textarea name="" rows="" cols="" placeholder="详细地址"></textarea>
+				<input type="text" placeholder="邮政编码" />
 				<div class="bc">
 					<input type="button" value="保存" />
 					<input type="button" value="取消" />
 				</div>
 			</form>
 		</div>
-		<!--修改头像-->
-		<div class="avatar">
-			<div class="clearfix"><a href="#" class="fr gb"><img src="img/icon4.png"/></a></div>
-			<h3>修改头像</h3>
+		<div class="readd">
 			<form action="#" method="get">
-				<h4>请上传图片</h4>
-				<input type="button" value="上传头像" />
-				<p>jpg或png，大小不超过2M</p>
-				<input type="submit" value="提交" />
+				<input type="text"  class="on" value="六六六" />
+				<input type="text" value="157****0022" />
+				<div class="city">
+					<select name="">
+						<option value="省份/自治区">河北省</option>
+					</select>
+					<select>
+						<option value="城市/地区">唐山市</option>
+					</select>
+					<select>
+						<option value="区/县">路北区</option>
+					</select>
+					<select>
+						<option value="配送区域">火炬路</option>
+					</select>
+				</div>
+				<textarea name="" rows="" cols="" placeholder="详细地址">高新产业园</textarea>
+				<input type="text" placeholder="邮政编码" value="063000"/>
+				<div class="bc">
+					<input type="button" value="保存" />
+					<input type="button" value="取消" />
+				</div>
 			</form>
 		</div>
-		
 		<!--返回顶部-->
 		<div class="gotop">
-			<a href="cart.html">
+			<a href="cart.jsp">
 			<dl>
 				<dt><img src="img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
@@ -203,7 +217,7 @@
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
-			<a href="mygxin.html">
+			<a href="mygxin.jsp">
 			<dl>
 				<dt><img src="img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>
@@ -217,6 +231,8 @@
 			</a>
 			<p>400-800-8200</p>
 		</div>
+		
+		
 		<!--footer-->
 		<div class="footer">
 			<div class="top">

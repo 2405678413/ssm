@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+
 <html>
     <head lang="en">
         <meta charset="utf-8" />
@@ -12,56 +13,56 @@
         <div class="wrapper clearfix">
             <div class="clearfix" id="top">
                 <h1 class="fl">
-                    <a href="index.html"><img src="img/tea.png"/></a>
+                    <a href="index.jsp"><img src="img/tea.png"/></a>
                 </h1>
                 <div class="fr clearfix" id="top1">
                     <p class="fl">
-                        <a href="login.html" id="login">登录</a>
-                        <a href="reg.html" id="reg">注册</a>
+                        <a href="login.jsp" id="login">登录</a>
+                        <a href="reg.jsp" id="reg">注册</a>
                     </p>
                     <form action="#" method="get" class="fl">
                         <input type="text" placeholder="输入关键字搜索" />
                         <input type="button" />
                     </form>
                     <div class="btn fl clearfix">
-                        <a href="mygxin.html"><img src="img/grzx.png"/></a>
-                        <a href="cart.html"><img src="img/gwc.png"/></a>
+                        <a href="mygxin.jsp"><img src="img/grzx.png"/></a>
+                        <a href="cart.jsp"><img src="img/gwc.png"/></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
             <ul class="clearfix" id="bott">
-                <li><a href="index.html">首页</a></li>
+                <li><a href="index.jsp">首页</a></li>
                 <li>
                     <a href="#">所有商品</a>
                     <div class="sList">
                         <div class="wrapper  clearfix">
-                            <a href="paint.html">
+                            <a href="paint.jsp">
                                 <dl>
                                     <dt><img src="img/nav1.jpg"/></dt>
                                     <dd>浓情欧式</dd>
                                 </dl>
                             </a>
-                            <a href="paint.html">
+                            <a href="paint.jsp">
                                 <dl>
                                     <dt><img src="img/nav2.jpg"/></dt>
                                     <dd>浪漫美式</dd>
                                 </dl>
                             </a>
-                            <a href="paint.html">
+                            <a href="paint.jsp">
                                 <dl>
                                     <dt><img src="img/nav3.jpg"/></dt>
                                     <dd>雅致中式</dd>
                                 </dl>
                             </a>
-                            <a href="paint.html">
+                            <a href="paint.jsp">
                                 <dl>
                                     <dt><img src="img/nav6.jpg"/></dt>
                                     <dd>简约现代</dd>
                                 </dl>
                             </a>
-                            <a href="paint.html">
+                            <a href="paint.jsp">
                                 <dl>
                                     <dt><img src="img/nav7.jpg"/></dt>
                                     <dd>创意装饰</dd>
@@ -71,26 +72,26 @@
                     </div>
                 </li>
                 <li>
-                    <a href="flowerDer.html">装饰摆件</a>
+                    <a href="flowerDer.jsp">装饰摆件</a>
                     <div class="sList2">
                         <div class="clearfix">
-                            <a href="proList.html">干花花艺</a>
-                            <a href="vase_proList.html">花瓶花器</a>
+                            <a href="proList.jsp">干花花艺</a>
+                            <a href="vase_proList.jsp">花瓶花器</a>
                         </div>
                     </div>
                 </li>
                 <li>
-                    <a href="decoration.html">布艺软饰</a>
+                    <a href="decoration.jsp">布艺软饰</a>
                     <div class="sList2">
                         <div class="clearfix">
-                            <a href="zbproList.html">桌布罩件</a>
-                            <a href="bzproList.html">抱枕靠垫</a>
+                            <a href="zbproList.jsp">桌布罩件</a>
+                            <a href="bzproList.jsp">抱枕靠垫</a>
                         </div>
                     </div>
                 </li>
-                <li><a href="paint.html">墙式壁挂</a></li>
-                <li><a href="perfume.html">蜡艺香薰</a></li>
-                <li><a href="idea.html">创意家居</a></li>
+                <li><a href="paint.jsp">墙式壁挂</a></li>
+                <li><a href="perfume.jsp">蜡艺香薰</a></li>
+                <li><a href="idea.jsp">创意家居</a></li>
             </ul>
         </div>
     </div>
@@ -115,8 +116,8 @@
     <!------------------------------thImg------------------------------>
     <div class="thImg">
         <div class="clearfix">
-            <a href="vase_proList.html"><img src="img/i1.jpg"/></a>
-            <a href="proList.html"><img src="img/i2.jpg"/></a>
+            <a href="vase_proList.jsp"><img src="img/i1.jpg"/></a>
+            <a href="proList.jsp"><img src="img/i2.jpg"/></a>
             <a href="#2"><img src="img/i3.jpg"/></a>
         </div>
     </div>
@@ -126,18 +127,18 @@
         <div class="wrapper">
             <h2><img src="img/ih1.jpg"/></h2>
             <div class="top clearfix">
-                <a href="proDetail.html"><img src="img/n1.jpg"/><p></p></a>
-                <a href="proDetail.html"><img src="img/n2.jpg"/><p></p></a>
-                <a href="proDetail.html"><img src="img/n3.jpg"/><p></p></a>
+                <a href="proDetail.jsp"><img src="img/n1.jpg"/><p></p></a>
+                <a href="proDetail.jsp"><img src="img/n2.jpg"/><p></p></a>
+                <a href="proDetail.jsp"><img src="img/n3.jpg"/><p></p></a>
             </div>
             <div class="bott clearfix">
-                <a href="proDetail.html"><img src="img/n4.jpg"/><p></p></a>
-                <a href="proDetail.html"><img src="img/n5.jpg"/><p></p></a>
-                <a href="proDetail.html"><img src="img/n6.jpg"/><p></p></a>
+                <a href="proDetail.jsp"><img src="img/n4.jpg"/><p></p></a>
+                <a href="proDetail.jsp"><img src="img/n5.jpg"/><p></p></a>
+                <a href="proDetail.jsp"><img src="img/n6.jpg"/><p></p></a>
             </div>
             <h2><img src="img/ih2.jpg"/></h2>
             <div class="flower clearfix tran">
-                <a href="proDetail.html" class="clearfix">
+                <a href="proDetail.jsp" class="clearfix">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -148,7 +149,7 @@
                         <dd><span>¥ 79.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -159,7 +160,7 @@
                         <dd><span>¥ 79.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -172,7 +173,7 @@
                 </a>
             </div>
             <div class="flower clearfix tran">
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -183,7 +184,7 @@
                         <dd><span>¥ 79.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -194,7 +195,7 @@
                         <dd><span>¥ 79.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -217,7 +218,7 @@
         <div class="wrapper">
             <h2><img src="img/ih3.jpg"/></h2>
             <div class="pList clearfix tran">
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -228,7 +229,7 @@
                         <dd><span>￥688.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -239,7 +240,7 @@
                         <dd><span>￥188.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -250,7 +251,7 @@
                         <dd><span>￥599.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -263,7 +264,7 @@
                 </a>
             </div>
             <div class="pList clearfix tran">
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -274,7 +275,7 @@
                         <dd><span>￥228.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -285,7 +286,7 @@
                         <dd><span>￥199.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -296,7 +297,7 @@
                         <dd><span>￥666.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -309,7 +310,7 @@
                 </a>
             </div>
             <div class="pList clearfix tran">
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -320,7 +321,7 @@
                         <dd><span>￥800.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -331,7 +332,7 @@
                         <dd><span>￥189.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -342,7 +343,7 @@
                         <dd><span>￥148.00</span></dd>
                     </dl>
                 </a>
-                <a href="proDetail.html">
+                <a href="proDetail.jsp">
                     <dl>
                         <dt>
                             <span class="abl"></span>
@@ -358,7 +359,7 @@
     </div>
     <!--返回顶部-->
     <div class="gotop">
-        <a href="cart.html">
+        <a href="cart.jsp">
             <dl>
                 <dt><img src="img/gt1.png"/></dt>
                 <dd>去购<br />物车</dd>
@@ -370,7 +371,7 @@
                 <dd>联系<br />客服</dd>
             </dl>
         </a>
-        <a href="mygxin.html">
+        <a href="mygxin.jsp">
             <dl>
                 <dt><img src="img/gt3.png"/></dt>
                 <dd>个人<br />中心</dd>
