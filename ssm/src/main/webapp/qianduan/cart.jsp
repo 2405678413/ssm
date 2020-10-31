@@ -402,7 +402,7 @@
 			<p>请选择宝贝</p>
 			<img class="off" src="${pageContext.request.contextPath}/img/temp/off.jpg" />
 		</div>
-		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/pro.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/cart.js" type="text/javascript" charset="utf-8"></script>

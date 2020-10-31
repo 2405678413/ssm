@@ -5,9 +5,9 @@
 	<head lang="en">
 		<meta charset="utf-8" />
 		<title>forget</title>
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/public.css"/>
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/proList.css" />
-		<link rel="stylesheet" type="text/css" href="${pageContext.request.contextPath}/css/forget.css" />
+		<link rel="stylesheet" type="text/css" hrjquery-3.5.1.min.jsath}/css/public.css"/>
+		<link rel="stylesheet" type="text/css" hrjquery-3.5.1.min.jsath}/css/proList.css" />
+		<link rel="stylesheet" type="text/css" hrjquery-3.5.1.min.jsath}/css/forget.css" />
 	</head>
 	<body>
 		<!----------------------------------------order------------------>
@@ -49,7 +49,7 @@
 			</div>
 		</div>
 		
-		<script src="js/jquery-1.12.4.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="js/jquery-3.5.1.min.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/public.js" type="text/javascript" charset="utf-8"></script>
 		<script src="js/pro.js" type="text/javascript" charset="utf-8"></script>
 	</body>
