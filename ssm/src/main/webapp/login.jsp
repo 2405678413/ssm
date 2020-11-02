@@ -1,6 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>登录界面</title>
@@ -10,7 +10,7 @@
 <body>
 <!-------------------login-------------------------->
 <div class="login">
-    <form action="#" method="post">
+    <form  action="${pageContext.request.contextPath}/user/login" method="post">
         <h1><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
         <p></p>
         <div class="msg-warn hide"><b></b>账号为您注册的邮箱</div>
