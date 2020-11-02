@@ -10,6 +10,6 @@ import java.util.List;
 public interface ShopCarMapper {
 
 
-    @Select("select ")
+    @Select("select goods_name,")
     List<ShopCar> list();
 }
