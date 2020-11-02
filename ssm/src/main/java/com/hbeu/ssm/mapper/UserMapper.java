@@ -1,4 +1,4 @@
 package com.hbeu.ssm.mapper;
 
-public class UserMapper {
+public interface UserMapper {
 }
