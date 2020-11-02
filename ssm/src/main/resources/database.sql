@@ -78,3 +78,5 @@ user_id varchar(50) comment '用户id'
 goods_zongjine decimal(50,2) comment '商品金额',
 shopcar_jine decimal(50,2) comment '购物车总金额'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+insert into user(user_id, user_name, user_pw, user_realname, user_address, user_tel, user_email, user_state) value(uuid(),?,?,?,?,?,?,0)
