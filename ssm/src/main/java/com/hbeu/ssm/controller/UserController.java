@@ -32,15 +32,12 @@ public class UserController {
             session.setAttribute("user",user);
             return "idea";
         } else{
-            return "index";
+            return "login";
         }
     }
 
-
-
-    // 打开子窗体的增加
-    @RequestMapping("/goNewAdd")
-    public String goNewAdd(Map map){
+    @RequestMapping( "/goadd")
+    public String goadd(){
         return "reg";
     }
 
@@ -51,10 +48,13 @@ public class UserController {
         } else {
             userService.insert(user);
         }
-        return "redirect:/user/list";
+        return "login";
     }
 
-
+    @RequestMapping( "/forget")
+    public String forget(){
+        return "forget";
+    }
 
 
 }

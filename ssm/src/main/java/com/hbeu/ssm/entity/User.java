@@ -9,7 +9,7 @@ public class User implements Serializable {
 
     private String user_id;
     private String user_name;
-    private String user_pw;
+    private String user_pwd;
     private String user_realname;
     private String user_address;
     private String user_tel;
@@ -33,11 +33,11 @@ public class User implements Serializable {
     }
 
     public String getUser_pw() {
-        return user_pw;
+        return user_pwd;
     }
 
     public void setUser_pw(String user_pw) {
-        this.user_pw = user_pw;
+        this.user_pwd = user_pw;
     }
 
     public String getUser_realname() {

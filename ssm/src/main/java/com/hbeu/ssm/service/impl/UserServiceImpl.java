@@ -20,12 +20,15 @@ public class UserServiceImpl implements UserService {
         return userMapper.login(name,pwd);
     }
 
-    public void update(User user){
+    public void update(User user) {
         userMapper.update(user);
     }
 
-    @Override
     public void insert(User user) {
-
+        userMapper.insert(user);
     }
+
+
+
+
 }

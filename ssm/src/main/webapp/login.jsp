@@ -17,7 +17,7 @@
         <p><input type="text" name="name" placeholder="邮箱"></p>
         <p><input type="password" name="pwd" placeholder="密码"></p>
         <p><input type="submit" value="登  录"></p>
-        <p class="txt"><a class="" href="reg.jsp">免费注册</a><a href="forget.jsp">忘记密码？</a></p>
+        <p class="txt"><a class="" href="${pageContext.request.contextPath}/user/goadd">免费注册</a><a href="${pageContext.request.contextPath}/user/forget">忘记密码？</a></p>
     </form>
 </div>
 

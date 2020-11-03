@@ -42,7 +42,7 @@
         <p class="txtL txt"><input class="code" type="text" name="" value="" placeholder="验证码" onclick="createCode()"></p>
         <p><input type="submit" name="" value="注册"></p>
         <p class="txtL txt">请详细阅读<a href="#">《使用条款和隐私策略》</a></p>
-        <p class="txt"><a href="#"><span></span>已有账号登录</a></p>
+        <p class="txt"><a href="${pageContext.request.contextPath}/user/gologin"><span></span>已有账号登录</a></p>
         <!--<a href="#" class="off"><img src="img/temp/off.png"></a>-->
     </form>
 </div>

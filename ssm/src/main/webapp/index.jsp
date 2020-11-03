@@ -18,7 +18,7 @@
             <div class="fr clearfix" id="top1">
                 <p class="fl">
                     <a href="${pageContext.request.contextPath}/user/gologin" id="login">登录</a>
-                    <a href="reg.jsp" id="reg">注册</a>
+                    <a href="${pageContext.request.contextPath}/user/goadd" id="reg">注册</a>
                 </p>
                 <form action="#" method="get" class="fl">
                     <input type="text" placeholder="输入关键字搜索" />
