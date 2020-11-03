@@ -7,6 +7,7 @@ import com.hbeu.ssm.service.UserService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.servlet.http.HttpSession;
@@ -19,7 +20,12 @@ public class UserController {
     @Autowired
     private UserService userService;
 
-    @RequestMapping("/login")
+    @RequestMapping(value = "/gologin",method = RequestMethod.GET)
+    public String gologin(){
+        return "login";
+    }
+
+    @RequestMapping(value="/login",method = RequestMethod.POST)
     public String login(String name,String pwd,HttpSession session){
         User user = userService.login(name,pwd);
         if(null!=user){

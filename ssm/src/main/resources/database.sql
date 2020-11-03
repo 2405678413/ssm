@@ -80,3 +80,91 @@ shopcar_jine decimal(50,2) comment '购物车总金额'
 )ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 insert into user(user_id, user_name, user_pw, user_realname, user_address, user_tel, user_email, user_state) value(uuid(),?,?,?,?,?,?,0)
+
+
+
+-- 罗闯的商场数据库
+-- create database mall;
+-- use mall;
+--
+-- DROP TABLE IF EXISTS admin;
+-- CREATE TABLE admin (
+--   admin_id varchar(50) primary key comment '管理员编号',
+--   admin_name varchar(50) comment '管理员名',
+--   admin_pwd varchar(50) comment '管理员密码'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+--
+-- DROP TABLE IF EXISTS catelog;
+-- CREATE TABLE catelog (
+--   catelog_id varchar(50) primary key comment '类别编号',
+--   catelog_name varchar(50)comment '类别名',
+--   catelog_state varchar(50) comment '状态'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+--
+-- DROP TABLE IF EXISTS goods;
+-- CREATE TABLE goods (
+--   goods_id varchar(50) primary key comment '商品编号',
+--   admin_id varchar(50) comment '管理员id',
+--   goods_name varchar(200) comment '商品名',
+--   goods_guige varchar(50) comment '商品规格',
+--   goods_miaoshu varchar(2000) comment '商品描述',
+--   goods_pic varchar(50) comment '描述图片',
+--   goods_jine decimal(10,2) comment '市场价',
+--   goods_tejia decimal(10,2) comment '特价',
+--   goods_isnottejia varchar(50) comment '管理员id',
+--   goods_catelog_id varchar(50) comment '类别编号',
+--   goods_state char(1) comment '商品状态'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+--
+-- DROP TABLE IF EXISTS `order`;
+-- CREATE TABLE `order`(
+--   order_id varchar(50) primary key comment '订单id',
+--   order_bianhao varchar(50) comment '订单编号',
+--   order_date datetime comment '订单日期',
+--   order_songhuodizhi varchar(50) comment '收货地址',
+--   order_fukuangfangshi varchar(50) comment '管理员id',
+--   order_jine decimal(50,2) comment '总价',
+--   order_user_id int(11) comment '购买者编号'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+--
+-- DROP TABLE IF EXISTS orderitem;
+-- CREATE TABLE orderitem (
+--   orderItem_id varchar(50) primary key comment '条款id',
+--   order_id varchar(50) comment '订单id',
+--   goods_id varchar(50) comment '商品id',
+--   goods_quantity varchar(50) comment '商品数量',
+--   state varchar(255) comment '状态'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+--
+--
+--
+-- DROP TABLE IF EXISTS user;
+-- CREATE TABLE user (
+--   user_id varchar(50) primary key comment '用户编号',
+--   user_name varchar(50) comment '用户名',
+--   user_pwd varchar(50) comment '用户密码',
+--   user_realname varchar(50) comment '真实姓名',
+--   user_address varchar(50) comment '用户地址',
+--   user_tel varchar(50) comment '用户电话',
+--   user_email varchar(50) comment '电子邮箱',
+--   user_state varchar(50) comment '状态'
+-- ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+-- DROP TABLE IF EXISTS shopcar;
+-- CREATE TABLE shopcar(
+--   shopcar_id varchar(50) primary key comment '购物车id',
+--   goods_name varchar(50) comment '商品名',
+--   count varchar(50) comment '商品数量',
+--   user_id varchar(50) comment '用户id',
+--   goods_zongjine decimal(50,2) comment '商品金额',
+--   shopcar_jine decimal(50,2) comment '购物车总金额'
+-- )ENGINE=InnoDB DEFAULT CHARSET=utf8;
+--
+-- insert into user(user_id, user_name, user_pwd, user_realname, user_address, user_tel, user_email, user_state) value(uuid(),?,?,?,?,?,?,0);
+--
+-- insert into admin(admin_id, admin_name, admin_pwd) values(uuid(),?,?)

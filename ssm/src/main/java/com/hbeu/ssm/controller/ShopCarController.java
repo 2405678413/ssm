@@ -20,4 +20,5 @@ public class ShopCarController {
         map.put("shopcar",shopCarService.list());
         return "shopcarlist";
     }
+
 }
