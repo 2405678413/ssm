@@ -3,7 +3,7 @@ package com.hbeu.ssm.entity;
 import java.io.Serializable;
 import java.math.BigDecimal;
 
-public class ShopCar implements Serializable {
+public class Cart implements Serializable {
 
 
     private static final long serialVersionUID = 3236328509224730149L;
@@ -12,13 +12,17 @@ public class ShopCar implements Serializable {
 
     private String goods_id;
 
-    private int count;
+    private Integer count;
 
     private String user_id;
 
     private BigDecimal goods_zongjine;
 
     private BigDecimal shopcar_jine;
+
+    public Cart(String goods_name, String goods_pic, Integer count, BigDecimal goods_jine) {
+    }
+
 
     public String getShopcar_id() {
         return shopcar_id;
@@ -36,11 +40,11 @@ public class ShopCar implements Serializable {
         this.goods_id = goods_id;
     }
 
-    public int getCount() {
+    public Integer getCount() {
         return count;
     }
 
-    public void setCount(int count) {
+    public void setCount(Integer count) {
         this.count = count;
     }
 
@@ -67,4 +71,5 @@ public class ShopCar implements Serializable {
     public void setShopcar_jine(BigDecimal shopcar_jine) {
         this.shopcar_jine = shopcar_jine;
     }
+
 }
