@@ -14,8 +14,6 @@ public class Goods implements Serializable {
 
     private String goods_guige;
 
-    private String goods_kucun;
-
     private String goods_pic;
 
     private String catelog_id;
@@ -88,13 +86,5 @@ public class Goods implements Serializable {
 
     public void setCatelog_id(String catelog_id) {
         this.catelog_id = catelog_id;
-    }
-
-    public String getGoods_kucun() {
-        return goods_kucun;
-    }
-
-    public void setGoods_kucun(String goods_kucun) {
-        this.goods_kucun = goods_kucun;
     }
 }
