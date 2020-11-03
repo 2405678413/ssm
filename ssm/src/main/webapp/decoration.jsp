@@ -13,55 +13,55 @@
 		<div class="head">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
+					<h1 class="fl"><a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
-							<a href="login.jsp" id="login">登录</a>
-							<a href="reg.jsp" id="reg">注册</a>
+							<a href="${pageContext.request.contextPath}/user/login" id="login">登录</a>
+							<a href="${pageContext.request.contextPath}/user/reg" id="reg">注册</a>
 						</p>
 						<form action="#" method="get" class="fl">
 							<input type="text" placeholder="搜索" />
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
+							<a href="${pageContext.request.contextPath}/user/mygxin"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
 							<a href="#" class="er1"><img src="${pageContext.request.contextPath}/img/ewm.png"/></a>
-							<a href="cart.jsp"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
+							<a href="${pageContext.request.contextPath}/user/cart"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
 							<p><a href="#"><img src="${pageContext.request.contextPath}/img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
 				<ul class="clearfix" id="bott">
-					<li><a href="index.jsp">首页</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/index">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
 							<div class="wrapper  clearfix">
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
@@ -71,26 +71,26 @@
 						</div>
 					</li>
 					<li>
-						<a href="flowerDer.jsp">装饰摆件</a>
+						<a href="${pageContext.request.contextPath}/user/flowerDer">装饰摆件</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="proList.jsp">干花花艺</a>
-								<a href="vase_proList.jsp">花瓶花器</a>
+								<a href="${pageContext.request.contextPath}/user/proList">干花花艺</a>
+								<a href="${pageContext.request.contextPath}/user/vase_proList">花瓶花器</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<a href="decoration.jsp">布艺软饰</a>
+						<a href="${pageContext.request.contextPath}/user/decoration">布艺软饰</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="zbproList.jsp">桌布罩件</a>
-								<a href="bzproList.jsp">抱枕靠垫</a>
+								<a href="zb${pageContext.request.contextPath}/user/proList">桌布罩件</a>
+								<a href="${pageContext.request.contextPath}/user/bzproList">抱枕靠垫</a>
 							</div>
 						</div>
 					</li>
-					<li><a href="paint.jsp">墙式壁挂</a></li>
-					<li><a href="perfume.jsp">蜡艺香薰</a></li>
-					<li><a href="idea.jsp">创意家居</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/paint">墙式壁挂</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/perfume">蜡艺香薰</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/idea">创意家居</a></li>
 				</ul>
 			</div>
 		</div>
@@ -101,9 +101,9 @@
 		<!-----------------address------------------------------->
 		<div class="address">
 			<div class="wrapper clearfix">
-				<a href="index.jsp">首页</a>
+				<a href="${pageContext.request.contextPath}/user/index">首页</a>
 				<span>/</span>
-				<a href="decoration.jsp" class="on">布艺软饰</a>
+				<a href="${pageContext.request.contextPath}/user/decoration" class="on">布艺软饰</a>
 			</div>
 		</div>
 		<!-------------------current---------------------->
@@ -125,7 +125,7 @@
 		<!----------------proList------------------------->
 		<ul class="proList wrapper clearfix">
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz07.jpg"></dt>
 						<dd>【最家】法式乡村复古抱枕</dd>
@@ -134,7 +134,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz06.jpg"></dt>
 						<dd>【最家】时尚图案抱枕</dd>
@@ -143,7 +143,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz05.jpg"></dt>
 						<dd>【最家】北欧时尚现代动物抱枕</dd>
@@ -152,7 +152,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz04.jpg"></dt>
 						<dd>【最家】简约格子抱枕</dd>
@@ -168,7 +168,7 @@
 				</dl>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz02.jpg"></dt>
 						<dd>【最家】时尚现代叮当猫抱枕</dd>
@@ -177,7 +177,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz01.jpg"></dt>
 						<dd>【最家】欧式现代棉麻抱枕</dd>
@@ -186,7 +186,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz08.jpg"></dt>
 						<dd>【最家】清新乡村田园抱枕</dd>
@@ -195,7 +195,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz07.jpg"></dt>
 						<dd>【最家】法式乡村复古抱枕</dd>
@@ -204,7 +204,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz06.jpg"></dt>
 						<dd>【最家】时尚图案抱枕</dd>
@@ -213,7 +213,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb08.jpg"></dt>
 						<dd>【最家】清新乡村田园桌布</dd>
@@ -222,7 +222,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb07.jpg"></dt>
 						<dd>【最家】法式乡村复古桌布</dd>
@@ -231,7 +231,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb06.jpg"></dt>
 						<dd>【最家】清新简约防水桌布</dd>
@@ -240,7 +240,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb05.jpg"></dt>
 						<dd>【最家】北欧圣诞节防水桌布红色</dd>
@@ -249,7 +249,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 					<dt><img src="${pageContext.request.contextPath}/img/temp/zb04.jpg"></dt>
 					<dd>【最家】田园桌布防水防油布</dd>
@@ -258,7 +258,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 					<dt><img src="${pageContext.request.contextPath}/img/temp/zb03.jpg"></dt>
 					<dd>【最家】欧式家用小方桌台布</dd>
@@ -267,7 +267,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb02.jpg"></dt>
 						<dd>【最家】地中海格子桌布</dd>
@@ -276,7 +276,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb01.jpg"></dt>
 						<dd>【最家】欧式田园棉麻桌布</dd>
@@ -285,7 +285,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb08.jpg"></dt>
 						<dd>【最家】清新乡村田园桌布</dd>
@@ -294,7 +294,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb07.jpg"></dt>
 						<dd>【最家】法式乡村复古桌布</dd>
@@ -303,7 +303,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb06.jpg"></dt>
 						<dd>【最家】清新简约防水桌布</dd>
@@ -312,7 +312,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/zb05.jpg"></dt>
 						<dd>【最家】北欧圣诞节防水桌布红色</dd>
@@ -321,7 +321,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 					<dt><img src="${pageContext.request.contextPath}/img/temp/zb04.jpg"></dt>
 					<dd>【最家】田园桌布防水防油布</dd>
@@ -330,7 +330,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz05.jpg"></dt>
 						<dd>【最家】北欧时尚现代动物抱枕</dd>
@@ -339,7 +339,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz04.jpg"></dt>
 						<dd>【最家】简约格子抱枕</dd>
@@ -355,7 +355,7 @@
 				</dl>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz02.jpg"></dt>
 						<dd>【最家】时尚现代叮当猫抱枕</dd>
@@ -364,7 +364,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/bz01.jpg"></dt>
 						<dd>【最家】欧式现代棉麻抱枕</dd>
@@ -415,11 +415,11 @@
 					</div>
 				</div>
 			</div>
-			<a class="more" href="proDetail.jsp">查看更多细节</a>
+			<a class="more" href="${pageContext.request.contextPath}/user/proDetail">查看更多细节</a>
 		</div>
 		<!--返回顶部-->
 		<div class="gotop">
-			<a href="cart.jsp">
+			<a href="${pageContext.request.contextPath}/user/cart">
 			<dl class="goCart">
 				<dt><img src="${pageContext.request.contextPath}/img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
@@ -432,7 +432,7 @@
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
-			<a href="mygxin.jsp">
+			<a href="${pageContext.request.contextPath}/user/mygxin">
 			<dl>
 				<dt><img src="${pageContext.request.contextPath}/img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>
