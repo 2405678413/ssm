@@ -1,4 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 
 
 <html>
@@ -31,8 +32,8 @@
 						</div>
 					</div>
 				</div>
-				<ul class="clearfix" id="bott">
-					<li><a href="index.jsp">首页</a></li>
+				<%--<ul class="clearfix" id="bott">
+					<li><a href="adminLogin.jsp">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
@@ -91,14 +92,14 @@
 					<li><a href="paint.jsp">墙式壁挂</a></li>
 					<li><a href="perfume.jsp">蜡艺香薰</a></li>
 					<li><a href="idea.jsp">创意家居</a></li>
-				</ul>
+				</ul>--%>
 			</div>
 		</div>
 		<div class="cart mt">
 			<!-----------------logo------------------->
 			<!--<div class="logo">
 				<h1 class="wrapper clearfix">
-					<a href="index.jsp"><img class="fl" src="img/temp/logo.png"></a>
+					<a href="adminLogin.jsp"><img class="fl" src="img/temp/logo.png"></a>
 					<img class="top" src="img/temp/cartTop01.png">
 				</h1>
 			</div>-->
@@ -107,7 +108,7 @@
 				<p class=" wrapper clearfix">
 					<span class="fl">购物车</span>
 					<img class="top" src="${pageContext.request.contextPath}/img/temp/cartTop01.png">
-					<a href="index.jsp" class="fr">继续购物&gt;</a>
+					<a action="${pageContext.request.contextPath}/user/index" class="fr">继续购物&gt;</a>
 				</p>
 			</div>
 			<!-----------------table------------------->
@@ -129,9 +130,15 @@
 							<dl class="clearfix">
 								<dt class="fl"><img src="${pageContext.request.contextPath}/img/temp/cart01.jpg"></dt>
 								<dd class="fl">
-									<p>创意现代简约干花花瓶摆件</p>
+									<c:forEach items="cart" var="ca">
+										<p>${ca.goods_pic}</p>
+										<p>${ca.goods_name}</p>
+										<p>${ca.goods_jine}</p>
+										<p>${ca.goods_zongjine}</p>
+									</c:forEach>
+									<%--<p>创意现代简约干花花瓶摆件</p>
 									<p>颜色分类:</p>
-									<p>白色瓷瓶+白色串枚</p>
+									<p>白色瓷瓶+白色串枚</p>--%>
 								</dd>
 							</dl>
 						</a>
@@ -295,7 +302,7 @@
 					</label>
 					<p class="fl">
 						<a href="#">全选</a>
-						<a href="#" class="del">删除</a>
+						<a action="${pageContext.request.contextPath}/cart/delectCart" class="del">删除</a>
 					</p>
 					<p class="fr">
 						<span>共<small id="sl">0</small>件商品</span>

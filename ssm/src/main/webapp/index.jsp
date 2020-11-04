@@ -26,14 +26,14 @@
                 </form>
                 <div class="btn fl clearfix">
                     <a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png" /></a>
-                    <a href="cart.jsp"><img src="${pageContext.request.contextPath}/img/gwc.png" /></a>
+                    <a href="${pageContext.request.contextPath}/cart/addCart"><img src="${pageContext.request.contextPath}/img/gwc.png" /></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <%--<ul class="clearfix" id="bott">
-    <li><a href="index.jsp">首页</a></li>
+    <li><a href="adminLogin.jsp">首页</a></li>
     <li>
         <a href="#">所有商品</a>
         <div class="sList">
@@ -377,10 +377,10 @@
             <dd>去购<br />物车</dd>
         </dl>
     </a>
-    <a href="#" class="dh">
+    <a href="adminLogin.jsp" class="dh">
         <dl>
             <dt><img src="${pageContext.request.contextPath}/img/gt2.png" /></dt>
-            <dd>联系<br />客服</dd>
+            <dd>后台<br />登录</dd>
         </dl>
     </a>
     <a href="mygxin.jsp">
