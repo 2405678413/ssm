@@ -15,7 +15,7 @@
 			<!-----------------logo------------------->
 			<div class="logo">
 				<h1 class="wrapper clearfix">
-					<a href="${pageContext.request.contextPath}/user/index"><img class="fl" src="${pageContext.request.contextPath}/img/temp/logo.png"></a>
+					<a href="index.jsp"><img class="fl" src="${pageContext.request.contextPath}/img/temp/logo.png"></a>
 				</h1>
 			</div>
 			<div class="forCon">

@@ -32,12 +32,12 @@ public class User implements Serializable {
         this.user_name = user_name;
     }
 
-    public String getUser_pw() {
+    public String getUser_pwd() {
         return user_pwd;
     }
 
-    public void setUser_pw(String user_pw) {
-        this.user_pwd = user_pw;
+    public void setUser_pwd(String user_pwd) {
+        this.user_pwd = user_pwd;
     }
 
     public String getUser_realname() {

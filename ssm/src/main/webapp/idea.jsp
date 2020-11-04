@@ -15,10 +15,18 @@
 				<div class="clearfix" id="top">
 					<h1 class="fl"><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
-						<%--<p class=" f1">--%>
-							<%--<a href= "login.jsp" id="login">登录</a>--%>
-							<%--<a href= "reg.jsp" id="reg">注册</a>--%>
+						<%--<p class="f1">--%>
+							<%--<a href="login.jsp" id="login">登录</a>--%>
+							<%--<a href="reg.jsp" id="reg">注册</a>--%>
 						<%--</p>--%>
+							<p class="fl">
+								<c:choose>
+									<c:when test="${user!=null}">
+										<a>${user.user_name}</a>
+										<a href="${pageContext.request.contextPath}/user/out">退出</a>
+									</c:when>
+								</c:choose>
+							</p>
 						<form action="#" method="get" class="fl">
 							<input type="text" placeholder="搜索" />
 							<input type="button" />

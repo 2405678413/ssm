@@ -11,10 +11,10 @@
 <!-------------------login-------------------------->
 <div class="login">
     <form action="${pageContext.request.contextPath}/user/login" method="post">
-        <h1><a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
+        <h1><a href="${pageContext.request.contextPath}/index.jsp"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
         <p></p>
-        <div class="msg-warn hide"><b></b>账号为您注册的邮箱</div>
-        <p><input type="text" name="name" placeholder="邮箱"></p>
+        <div class="msg-warn hide"><b></b>账号为您注册的邮箱或电话号码</div>
+        <p><input type="text" name="name" placeholder="邮箱/电话号码"></p>
         <p><input type="password" name="pwd" placeholder="密码"></p>
         <p><input type="submit" value="登  录"></p>
         <p class="txt"><a class="" href="${pageContext.request.contextPath}/user/goadd">免费注册</a><a href="${pageContext.request.contextPath}/user/forget">忘记密码？</a></p>

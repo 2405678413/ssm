@@ -16,10 +16,10 @@
 				<div class="clearfix" id="top">
 					<h1 class="fl"><a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/logo.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
-						<%--<p class="fl">--%>
-							<%--<a href="#" id="login">登录</a>--%>
-							<%--<a href="#" id="reg">注册</a>--%>
-						<%--</p>--%>
+						<p class="fl">
+							<a href="#" id="login">登录</a>
+							<a href="#" id="reg">注册</a>
+						</p>
 						<form action="#" method="get" class="fl">
 							<input type="text" placeholder="搜索" />
 							<input type="button" />

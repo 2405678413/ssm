@@ -18,7 +18,7 @@ public class AdminController {
 
     @RequestMapping(value = "/goadminlogin",method = RequestMethod.GET)
     public String goadminlogin(){
-        return "adminlogin";
+        return "houtai/adminLogin";
     }
 
     @RequestMapping(value = "/adminlogin",method = RequestMethod.POST)
@@ -26,9 +26,9 @@ public class AdminController {
         Admin admin = adminService.adminlogin(adminname,adminpwd);
         if (null!=admin){
             session.setAttribute("admin",admin);
-            return "adminindex";
+            return "houtai/adminIndex";
         }else {
-            return "adminlogin";
+            return "houtai/adminLogin";
         }
     }
 

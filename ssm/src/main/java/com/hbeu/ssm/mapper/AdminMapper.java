@@ -9,7 +9,7 @@ import org.springframework.stereotype.Repository;
 @Repository
 public interface AdminMapper {
 
-    @Select("select * from admin where admin_name=#{adminname} and admin_pwd=#{adminpwd}")
-    Admin adminlogin(@Param("adminname")String adminname, @Param("adminpwd") String adminpwd);
+    @Select("select * from admin where admin_name=#{admin_name} and admin_pwd=#{admin_pwd}")
+    Admin adminlogin(@Param("admin_name")String adminname, @Param("admin_pwd") String adminpwd);
 
 }
