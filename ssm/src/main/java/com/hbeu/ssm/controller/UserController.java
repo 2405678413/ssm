@@ -47,7 +47,8 @@ public class UserController {
     public String add(User user){
         if(StringUtils.isNotEmpty(user.getUser_id())){
             userService.update(user);
-        } else {
+        }
+        else {
             userService.insert(user);
         }
         return "login";
