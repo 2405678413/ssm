@@ -12,6 +12,8 @@ public class Cart implements Serializable {
 
     private String goods_id;
 
+    private String goods_pic;
+
     private Integer count;
 
     private String user_id;
@@ -72,4 +74,11 @@ public class Cart implements Serializable {
         this.shopcar_jine = shopcar_jine;
     }
 
+    public String getGoods_pic() {
+        return goods_pic;
+    }
+
+    public void setGoods_pic(String goods_pic) {
+        this.goods_pic = goods_pic;
+    }
 }

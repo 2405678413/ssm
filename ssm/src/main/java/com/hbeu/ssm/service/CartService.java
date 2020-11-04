@@ -6,6 +6,7 @@ import java.util.List;
 
 public interface CartService {
 
+
     Integer addGoodsToCart(Cart cart);
     Cart findCartByUserId(String userId, String goodsId);
     Integer updateCart(Cart cart);
