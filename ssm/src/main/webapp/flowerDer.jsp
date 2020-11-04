@@ -12,7 +12,7 @@
 		<div class="head">
 			<div class="wrapper clearfix">
 				<div class="clearfix" id="top">
-					<h1 class="fl"><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/tea.png"/></a></h1>
+					<h1 class="fl"><a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/tea.png"/></a></h1>
 					<div class="fr clearfix" id="top1">
 						<p class="fl">
 							<a href="#" id="login">登录</a>
@@ -23,15 +23,15 @@
 							<input type="button" />
 						</form>
 						<div class="btn fl clearfix">
-							<a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
+							<a href="${pageContext.request.contextPath}/user/mygxin"><img src="${pageContext.request.contextPath}/img/grzx.png"/></a>
 							<a href="#" class="er1"><img src="${pageContext.request.contextPath}/img/ewm.png"/></a>
-							<a href="cart.jsp"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
+							<a href="${pageContext.request.contextPath}/user/cart"><img src="${pageContext.request.contextPath}/img/gwc.png"/></a>
 							<p><a href="#"><img src="${pageContext.request.contextPath}/img/smewm.png"/></a></p>
 						</div>
 					</div>
 				</div>
 				<ul class="clearfix" id="bott">
-					<li><a href="index.jsp">首页</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/index">首页</a></li>
 					<li>
 						<a href="#">所有商品</a>
 						<div class="sList">
@@ -70,26 +70,26 @@
 						</div>
 					</li>
 					<li>
-						<a href="flowerDer.jsp">装饰摆件</a>
+						<a href="${pageContext.request.contextPath}/user/flowerDer">装饰摆件</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="proList.jsp">干花花艺</a>
-								<a href="vase_proList.jsp">花瓶花器</a>
+								<a href="${pageContext.request.contextPath}/user/proList">干花花艺</a>
+								<a href="${pageContext.request.contextPath}/user/vase_proList">花瓶花器</a>
 							</div>
 						</div>
 					</li>
 					<li>
-						<a href="decoration.jsp">布艺软饰</a>
+						<a href="${pageContext.request.contextPath}/user/decoration">布艺软饰</a>
 						<div class="sList2">
 							<div class="clearfix">
-								<a href="zbproList.jsp">桌布罩件</a>
-								<a href="bzproList.jsp">抱枕靠垫</a>
+								<a href="zb${pageContext.request.contextPath}/user/proList">桌布罩件</a>
+								<a href="${pageContext.request.contextPath}/user/bzproListg">抱枕靠垫</a>
 							</div>
 						</div>
 					</li>
 					<li><a href="paint.jsp">墙式壁挂</a></li>
 					<li><a href="perfume.jsp">蜡艺香薰</a></li>
-					<li><a href="idea.jsp">创意家居</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/idea">创意家居</a></li>
 				</ul>
 			</div>
 		</div>
@@ -100,9 +100,9 @@
 		<!-----------------address------------------------------->
 		<div class="address">
 			<div class="wrapper clearfix">
-				<a href="index.jsp">首页</a>
+				<a href="${pageContext.request.contextPath}/user/index">首页</a>
 				<span>/</span>
-				<a href="flowerDer.jsp" class="on">装饰摆件</a>
+				<a href="${pageContext.request.contextPath}/user/flowerDer" class="on">装饰摆件</a>
 			</div>
 		</div>
 		<!-------------------current---------------------->
@@ -124,7 +124,7 @@
 		<!----------------proList------------------------->
 		<ul class="proList wrapper clearfix">
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro01.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -133,7 +133,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro02.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -142,7 +142,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro03.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -151,7 +151,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/vase01.jpg"></dt>
 						<dd>【最家】创意现代简约白瓷干花花瓶摆件</dd>
@@ -160,7 +160,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/vase02.jpg"></dt>
 						<dd>【最家】现代简约白色条纹干花花瓶摆件</dd>
@@ -169,7 +169,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/vase03.jpg"></dt>
 						<dd>【最家】北欧现代陶瓷花瓶摆件</dd>
@@ -178,7 +178,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/vase04.jpg"></dt>
 						<dd>【最家】现代简约客厅茶几白色陶瓷花瓶摆件 </dd>
@@ -187,7 +187,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/vase05.jpg"></dt>
 						<dd>【最家】仿木纹漆金裂纹台面花瓶系列套装</dd>
@@ -196,7 +196,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/vase06.jpg"></dt>
 						<dd>【最家】仿木竖条纹雅致台面花瓶</dd>
@@ -205,7 +205,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro04.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -214,7 +214,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro05.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -223,7 +223,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro06.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -232,7 +232,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro07.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -241,7 +241,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro08.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -250,7 +250,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro01.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -259,7 +259,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro02.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -268,7 +268,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro03.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -277,7 +277,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro04.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -286,7 +286,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro05.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -295,7 +295,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro06.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -304,7 +304,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro07.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -313,7 +313,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="proDetail.jsp">
+				<a href="${pageContext.request.contextPath}/user/proDetail">
 					<dl>
 						<dt><img src="${pageContext.request.contextPath}/img/temp/pro08.jpg"></dt>
 						<dd>【最家】跳舞兰仿真花干花</dd>
@@ -364,11 +364,11 @@
 					</div>
 				</div>
 			</div>
-			<a class="more" href="proDetail.jsp">查看更多细节</a>
+			<a class="more" href="${pageContext.request.contextPath}/user/proDetail">查看更多细节</a>
 		</div>
 		<!--返回顶部-->
 		<div class="gotop">
-			<a href="cart.jsp">
+			<a href="${pageContext.request.contextPath}/user/cart">
 			<dl class="goCart">
 				<dt><img src="${pageContext.request.contextPath}/img/gt1.png"/></dt>
 				<dd>去购<br />物车</dd>
@@ -381,7 +381,7 @@
 				<dd>联系<br />客服</dd>
 			</dl>
 			</a>
-			<a href="mygxin.jsp">
+			<a href="${pageContext.request.contextPath}/user/mygxin">
 			<dl>
 				<dt><img src="${pageContext.request.contextPath}/img/gt3.png"/></dt>
 				<dd>个人<br />中心</dd>
