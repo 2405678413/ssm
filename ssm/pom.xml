@@ -23,10 +23,10 @@
   <modelVersion>4.0.0</modelVersion>
   <packaging>war</packaging>
 
-  <name>permission</name>
-  <groupId>com.chinasoft</groupId>
-  <artifactId>permission</artifactId>
-  <version>1.0</version>
+    <name>ssm</name>
+    <groupId>com.hbeu</groupId>
+    <artifactId>ssm</artifactId>
+    <version>1.0</version>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
