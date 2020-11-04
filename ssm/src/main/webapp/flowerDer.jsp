@@ -36,31 +36,31 @@
 						<a href="#">所有商品</a>
 						<div class="sList">
 							<div class="wrapper  clearfix">
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav1.jpg"/></dt>
 										<dd>浓情欧式</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav2.jpg"/></dt>
 										<dd>浪漫美式</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav3.jpg"/></dt>
 										<dd>雅致中式</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav6.jpg"/></dt>
 										<dd>简约现代</dd>
 									</dl>
 								</a>
-								<a href="paint.jsp">
+								<a href="${pageContext.request.contextPath}/user/paint">
 									<dl>
 										<dt><img src="${pageContext.request.contextPath}/img/nav7.jpg"/></dt>
 										<dd>创意装饰</dd>
@@ -87,7 +87,7 @@
 							</div>
 						</div>
 					</li>
-					<li><a href="paint.jsp">墙式壁挂</a></li>
+					<li><a href="${pageContext.request.contextPath}/user/paint">墙式壁挂</a></li>
 					<li><a href="perfume.jsp">蜡艺香薰</a></li>
 					<li><a href="${pageContext.request.contextPath}/user/idea">创意家居</a></li>
 				</ul>

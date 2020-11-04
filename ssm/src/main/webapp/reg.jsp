@@ -33,12 +33,13 @@
 <body>
 <!-------------------reg-------------------------->
 <div class="reg">
-    <form action="#" method="post">
+    <form action="${pageContext.request.contextPath}/user/add" method="get">
         <h1><a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
         <p>用户注册</p>
-        <p><input type="text" name="" value="" placeholder="请输入邮箱"></p>
-        <p><input type="password" name="" value="" placeholder="请输入密码"></p>
-        <p><input type="password" name="" value="" placeholder="请确认密码"></p>
+        <p><input type="text" name="user_name" value="" placeholder="请输入邮箱"></p>
+        <p><input type="password" name="user_pwd" value="" placeholder="请输入密码"></p>
+        <%--<p><input type="password" name="user_pwd" value="" placeholder="请确认密码"></p>--%>
+
         <p class="txtL txt"><input class="code" type="text" name="" value="" placeholder="验证码" onclick="createCode()"></p>
         <p><input type="submit" name="" value="注册"></p>
         <p class="txtL txt">请详细阅读<a href="#">《使用条款和隐私策略》</a></p>

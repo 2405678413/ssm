@@ -31,23 +31,23 @@ public class CartController {
     @Autowired
     private AddressService addressService;
 
-    @RequestMapping("/addCart")
+    @RequestMapping("addCart")
     @ResponseBody
-    public String addToCart(String goods_id, Internal count, HttpServletRequest request){
+    public String addToCart(String goodsId, Internal count, HttpServletRequest request){
         HttpSession session = request.getSession();
         User user=(User) session.getAttribute("user");
-        Cart cart = cartService.findCartByUserId(user.getUser_id(),goods_id);
+        Cart cart = cartService.findCartByUserId(user.getUser_id(),goodsId);
         if(cart!=null){
             cart.setShopcar_id(cart.getShopcar_id()+count);
             cartService.updateCart(cart);
         }else{
-            Goods goods = goodsService.findById(goods_id);
+            Goods goods = goodsService.findById(goodsId);
             Cart c=new Cart(goods.getGoods_name(),goods.getGoods_pic(),cart.getCount(),goods.getGoods_jine());
             cartService.addGoodsToCart(c);
         }
         return "success";
     }
-    @RequestMapping("/findCartByUser")
+    @RequestMapping("findCartByUser")
     @ResponseBody
     public List<Cart> findCartByUser(HttpServletRequest request){
         HttpSession session = request.getSession();
@@ -56,7 +56,7 @@ public class CartController {
         return list;
     }
 
-    @RequestMapping("/deleteCart")
+    @RequestMapping("deleteCart")
     @ResponseBody
     public String deleteCart(Integer cartId){
         Integer rs = cartService.deleteCart(cartId);
@@ -67,7 +67,7 @@ public class CartController {
         }
     }
 
-    @RequestMapping("/reduceCartNum")
+    @RequestMapping("reduceCartNum")
     @ResponseBody
     public String reduceCartNum(Integer cartId){
         Cart cart = cartService.findCartById(cartId);
@@ -79,7 +79,7 @@ public class CartController {
             return "fail";
         }
     }
-    @RequestMapping("/addCartNum")
+    @RequestMapping("addCartNum")
     @ResponseBody
     public String addCartNum(Integer cartId){
         Cart cart = cartService.findCartById(cartId);
@@ -91,7 +91,7 @@ public class CartController {
             return "fail";
         }
     }
-    @RequestMapping("/preOrder")
+    @RequestMapping("preOrder")
     public String preOrder(Integer[] goodslist, Model model, HttpServletRequest request){
         List<Cart> cartList=new ArrayList<Cart>();
         for (Integer i : goodslist) {
