@@ -34,7 +34,7 @@
 <!-------------------reg-------------------------->
 <div class="reg">
     <form action="#" method="post">
-        <h1><a href="index.jsp"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
+        <h1><a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/temp/tea.png"></a></h1>
         <p>用户注册</p>
         <p><input type="text" name="" value="" placeholder="请输入邮箱"></p>
         <p><input type="password" name="" value="" placeholder="请输入密码"></p>
