@@ -13,7 +13,7 @@
     <div class="wrapper clearfix">
         <div class="clearfix" id="top">
             <h1 class="fl">
-                <a href="index.jsp"><img src="${pageContext.request.contextPath}/img/tea.png" /></a>
+                <a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/tea.png" /></a>
             </h1>
             <div class="fr clearfix" id="top1">
                 <p class="fl">
@@ -25,15 +25,15 @@
                     <input type="button" />
                 </form>
                 <div class="btn fl clearfix">
-                    <a href="mygxin.jsp"><img src="${pageContext.request.contextPath}/img/grzx.png" /></a>
-                    <a href="${pageContext.request.contextPath}/cart/addCart"><img src="${pageContext.request.contextPath}/img/gwc.png" /></a>
+                    <a href="${pageContext.request.contextPath}/user/mygxin"><img src="${pageContext.request.contextPath}/img/grzx.png" /></a>
+                    <a href="${pageContext.request.contextPath}/user/cart"><img src="${pageContext.request.contextPath}/img/gwc.png" /></a>
                 </div>
             </div>
         </div>
     </div>
 </div>
 <%--<ul class="clearfix" id="bott">
-    <li><a href="adminLogin.jsp">首页</a></li>
+    <li><a href="index.jsp">首页</a></li>
     <li>
         <a href="#">所有商品</a>
         <div class="sList">
@@ -116,8 +116,8 @@
 <!------------------------------thImg------------------------------>
 <div class="thImg">
     <div class="clearfix">
-        <a href="vase_proList.jsp"><img src="${pageContext.request.contextPath}/img/i1.jpg" /></a>
-        <a href="proList.jsp"><img src="${pageContext.request.contextPath}/img/i2.jpg" /></a>
+        <a href="${pageContext.request.contextPath}/user/vase_proList"><img src="${pageContext.request.contextPath}/img/i1.jpg" /></a>
+        <a href="${pageContext.request.contextPath}/user/proList"><img src="${pageContext.request.contextPath}/img/i2.jpg" /></a>
         <a href="#2"><img src="${pageContext.request.contextPath}/img/i3.jpg" /></a>
     </div>
 </div>
@@ -127,30 +127,30 @@
     <div class="wrapper">
         <h2><img src="${pageContext.request.contextPath}/img/ih1.jpg" /></h2>
         <div class="top clearfix">
-            <a href="proDetail.jsp"><img src="${pageContext.request.contextPath}/img/n1.jpg" />
+            <a href="${pageContext.request.contextPath}/user/proDetail"><img src="${pageContext.request.contextPath}/img/n1.jpg" />
                 <p></p>
             </a>
-            <a href="proDetail.jsp"><img src="${pageContext.request.contextPath}/img/n2.jpg" />
+            <a href="${pageContext.request.contextPath}/user/proDetail"><img src="${pageContext.request.contextPath}/img/n2.jpg" />
                 <p></p>
             </a>
-            <a href="proDetail.jsp"><img src="${pageContext.request.contextPath}/img/n3.jpg" />
+            <a href="${pageContext.request.contextPath}/user/proDetail"><img src="${pageContext.request.contextPath}/img/n3.jpg" />
                 <p></p>
             </a>
         </div>
         <div class="bott clearfix">
-            <a href="proDetail.jsp"><img src="${pageContext.request.contextPath}/img/n4.jpg" />
+            <a href="${pageContext.request.contextPath}/user/proDetail"><img src="${pageContext.request.contextPath}/img/n4.jpg" />
                 <p></p>
             </a>
-            <a href="proDetail.jsp"><img src="${pageContext.request.contextPath}/img/n5.jpg" />
+            <a href="${pageContext.request.contextPath}/user/proDetail"><img src="${pageContext.request.contextPath}/img/n5.jpg" />
                 <p></p>
             </a>
-            <a href="proDetail.jsp"><img src="${pageContext.request.contextPath}/img/n6.jpg" />
+            <a href="${pageContext.request.contextPath}/user/proDetail"><img src="${pageContext.request.contextPath}/img/n6.jpg" />
                 <p></p>
             </a>
         </div>
         <h2><img src="${pageContext.request.contextPath}/img/ih2.jpg" /></h2>
         <div class="flower clearfix tran">
-            <a href="proDetail.jsp" class="clearfix">
+            <a href="${pageContext.request.contextPath}/user/proDetail" class="clearfix">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -161,7 +161,7 @@
                     <dd><span>¥ 79.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -172,7 +172,7 @@
                     <dd><span>¥ 79.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -185,7 +185,7 @@
             </a>
         </div>
         <div class="flower clearfix tran">
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -196,7 +196,7 @@
                     <dd><span>¥ 79.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -207,7 +207,7 @@
                     <dd><span>¥ 79.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -230,7 +230,7 @@
     <div class="wrapper">
         <h2><img src="${pageContext.request.contextPath}/img/ih3.jpg" /></h2>
         <div class="pList clearfix tran">
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -241,7 +241,7 @@
                     <dd><span>￥688.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -252,7 +252,7 @@
                     <dd><span>￥188.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -263,7 +263,7 @@
                     <dd><span>￥599.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -276,7 +276,7 @@
             </a>
         </div>
         <div class="pList clearfix tran">
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -287,7 +287,7 @@
                     <dd><span>￥228.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -298,7 +298,7 @@
                     <dd><span>￥199.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -309,7 +309,7 @@
                     <dd><span>￥666.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -322,7 +322,7 @@
             </a>
         </div>
         <div class="pList clearfix tran">
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -333,7 +333,7 @@
                     <dd><span>￥800.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -344,7 +344,7 @@
                     <dd><span>￥189.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -355,7 +355,7 @@
                     <dd><span>￥148.00</span></dd>
                 </dl>
             </a>
-            <a href="proDetail.jsp">
+            <a href="${pageContext.request.contextPath}/user/proDetail">
                 <dl>
                     <dt>
                         <span class="abl"></span>
@@ -371,19 +371,19 @@
 </div>
 <!--返回顶部-->
 <div class="gotop">
-    <a href="cart.jsp">
+    <a href="${pageContext.request.contextPath}/user/cart">
         <dl>
             <dt><img src="${pageContext.request.contextPath}/img/gt1.png" /></dt>
             <dd>去购<br />物车</dd>
         </dl>
     </a>
-    <a href="adminLogin.jsp" class="dh">
+    <a href="#" class="dh">
         <dl>
             <dt><img src="${pageContext.request.contextPath}/img/gt2.png" /></dt>
-            <dd>后台<br />登录</dd>
+            <dd>联系<br />客服</dd>
         </dl>
     </a>
-    <a href="mygxin.jsp">
+    <a href="${pageContext.request.contextPath}/user/mygxin">
         <dl>
             <dt><img src="${pageContext.request.contextPath}/img/gt3.png" /></dt>
             <dd>个人<br />中心</dd>
