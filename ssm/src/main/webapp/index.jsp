@@ -16,6 +16,7 @@
                 <a href="${pageContext.request.contextPath}/user/index"><img src="${pageContext.request.contextPath}/img/tea.png" /></a>
             </h1>
             <div class="fr clearfix" id="top1">
+
                 <p class="fl">
                     <a href="${pageContext.request.contextPath}/user/gologin" id="login">登录</a>
                     <a href="${pageContext.request.contextPath}/user/goadd" id="reg">注册</a>
@@ -377,10 +378,10 @@
             <dd>去购<br />物车</dd>
         </dl>
     </a>
-    <a href="#" class="dh">
+    <a href="${pageContext.request.contextPath}/houtai/adminLogin.jsp" class="dh">
         <dl>
             <dt><img src="${pageContext.request.contextPath}/img/gt2.png" /></dt>
-            <dd>联系<br />客服</dd>
+            <dd>后台<br />登录</dd>
         </dl>
     </a>
     <a href="${pageContext.request.contextPath}/user/mygxin">

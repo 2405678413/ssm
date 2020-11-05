@@ -19,6 +19,14 @@
 							<%--<a href= "login.jsp" id="login">登录</a>--%>
 							<%--<a href= "reg.jsp" id="reg">注册</a>--%>
 						<%--</p>--%>
+							<p class="fl">
+								<c:choose>
+									<c:when test="${user!=null}">
+										<a>${user.user_realname}</a>
+										<a href="${pageContext.request.contextPath}/user/out">退出</a>
+									</c:when>
+								</c:choose>
+							</p>
 						<form action="#" method="get" class="fl">
 							<input type="text" placeholder="搜索" />
 							<input type="button" />

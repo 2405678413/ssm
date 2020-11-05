@@ -19,7 +19,6 @@ public class User implements Serializable {
     private String user_email;
     private String user_state;
 
-
     public String getUser_id() {
         return user_id;
     }

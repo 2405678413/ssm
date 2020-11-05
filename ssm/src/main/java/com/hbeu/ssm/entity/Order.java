@@ -22,7 +22,7 @@ public class Order implements Serializable {
 
     private String user_id;
 
-    private String shopcar_id;
+    private String cart_id;
 
     public String getOrder_id() {
         return order_id;
@@ -80,11 +80,11 @@ public class Order implements Serializable {
         this.user_id = user_id;
     }
 
-    public String getShopcar_id() {
-        return shopcar_id;
+    public String getCart_id() {
+        return cart_id;
     }
 
-    public void setShopcar_id(String shopcar_id) {
-        this.shopcar_id = shopcar_id;
+    public void setCart_id(String cart_id) {
+        this.cart_id = cart_id;
     }
 }

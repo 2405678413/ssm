@@ -8,7 +8,7 @@ public class Admin implements Serializable {
 
     private String admin_id;
     private String admin_name;
-    private String admin_pw;
+    private String admin_pwd;
 
     public String getAdmin_id() {
         return admin_id;
@@ -27,10 +27,10 @@ public class Admin implements Serializable {
     }
 
     public String getAdmin_pw() {
-        return admin_pw;
+        return admin_pwd;
     }
 
     public void setAdmin_pw(String admin_pw) {
-        this.admin_pw = admin_pw;
+        this.admin_pwd = admin_pw;
     }
 }
