@@ -140,10 +140,9 @@
 							<span>添加新地址</span>
 						</div>
 						<div id="dizhi">
-							<p>六六六</p>
-							<p>1573****666</p>
-							<p>河北省 唐山市 路北区</p>
-							<p>唐山市大学生公寓村（063000）</p>
+							<p><a>${user.user_realname}</a></p>
+							<p><a>${user.user_tel}</a></p>
+							<p><a>${user.user_address}</a></p>
 						</div>
 					</div>		
 				</div>
