@@ -22,8 +22,8 @@ public class AdminController {
     }
 
     @RequestMapping(value = "/adminlogin",method = RequestMethod.POST)
-    public String adminlogin(String adminname, String adminpwd, HttpSession session){
-        Admin admin = adminService.adminlogin(adminname,adminpwd);
+    public String adminlogin(String admin_name, String admin_pwd, HttpSession session){
+        Admin admin = adminService.adminlogin(admin_name,admin_pwd);
         if (null!=admin){
             session.setAttribute("admin",admin);
             return "houtai/adminIndex";

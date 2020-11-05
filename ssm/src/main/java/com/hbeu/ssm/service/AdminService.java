@@ -4,5 +4,5 @@ import com.hbeu.ssm.entity.Admin;
 
 public interface AdminService {
 
-    Admin adminlogin(String adminname, String adminpwd);
+    Admin adminlogin(String admin_name, String admin_pwd);
 }

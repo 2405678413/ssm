@@ -16,7 +16,7 @@ public class AdminServiceImpl implements AdminService {
     private AdminMapper adminMapper;
 
     @Transactional(readOnly = true)
-    public Admin adminlogin(String adminname, String adminpwd) {
-        return adminMapper.adminlogin(adminname,adminpwd);
+    public Admin adminlogin(String admin_name, String admin_pwd) {
+        return adminMapper.adminlogin(admin_name,admin_pwd);
     }
 }

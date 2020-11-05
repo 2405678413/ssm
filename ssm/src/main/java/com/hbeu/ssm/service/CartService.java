@@ -8,9 +8,14 @@ public interface CartService {
 
 
     Integer addGoodsToCart(Cart cart);
-    Cart findCartByUserId(String userId, String goodsId);
+
+    Cart findCartByUserId(String user_id, String goods_id);
+
     Integer updateCart(Cart cart);
-    List<Cart> findCartByUserId(String userId);
-    Integer deleteCart(Integer cartId);
-    Cart findCartById(Integer cartId);
+
+    List<Cart> findCartByUserId(String user_id);
+
+    Integer deleteCart(Integer cart_id);
+
+    Cart findCartById(Integer cart_id);
 }

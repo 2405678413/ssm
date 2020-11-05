@@ -1,6 +1,7 @@
 package com.hbeu.ssm.entity;
 
 import java.io.Serializable;
+import java.sql.Date;
 
 public class User implements Serializable {
 
@@ -11,6 +12,8 @@ public class User implements Serializable {
     private String user_name;
     private String user_pwd;
     private String user_realname;
+    private String gender;
+    private Date birthday;
     private String user_address;
     private String user_tel;
     private String user_email;
@@ -78,5 +81,21 @@ public class User implements Serializable {
 
     public void setUser_state(String user_state) {
         this.user_state = user_state;
+    }
+
+    public String getGender() {
+        return gender;
+    }
+
+    public void setGender(String gender) {
+        this.gender = gender;
+    }
+
+    public Date getBirthday() {
+        return birthday;
+    }
+
+    public void setBirthday(Date birthday) {
+        this.birthday = birthday;
     }
 }

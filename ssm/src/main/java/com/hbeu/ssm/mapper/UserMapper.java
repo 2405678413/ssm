@@ -7,6 +7,8 @@ import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 
 @Repository
 public interface UserMapper {
@@ -20,4 +22,9 @@ public interface UserMapper {
     @Insert("insert into user(user_id,user_name,user_pwd, user_realname, user_address, user_tel, user_email, user_state) " +
             "values(uuid(),#{user_name},#{user_pwd},#{user_realname},#{user_address},#{user_tel},#{user_email},'1')")
     void insert(User user);
+
+
+    @Select("select user_id,user_name,user_realname,gender,birthday,user_tel,user_email" +
+            ",user_address,user_state from user")
+    List<User> list();
 }

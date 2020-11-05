@@ -25,8 +25,8 @@ public class CartServiceImpl implements CartService {
     }
     @Transactional(propagation=Propagation.REQUIRED,readOnly=true)
     @Override
-    public Cart findCartByUserId(String userId, String goodsId) {
-        return cartMapper.findCartByUserId(userId, goodsId);
+    public Cart findCartByUserId(String userId, String goods_id) {
+        return cartMapper.findCartByUserId(userId, goods_id);
     }
     @Transactional(propagation=Propagation.REQUIRED,rollbackFor=Exception.class)
     @Override
@@ -35,19 +35,19 @@ public class CartServiceImpl implements CartService {
     }
     @Transactional(propagation=Propagation.REQUIRED,readOnly=true)
     @Override
-    public List<Cart> findCartByUserId(String userId) {
-        return cartMapper.findCartListByUserId(userId);
+    public List<Cart> findCartByUserId(String user_id) {
+        return cartMapper.findCartListByUserId(user_id);
     }
     @Transactional(propagation=Propagation.REQUIRED,rollbackFor=Exception.class)
     @Override
-    public Integer deleteCart(Integer cartId) {
-        return cartMapper.deleteCart(cartId);
+    public Integer deleteCart(Integer cart_id) {
+        return cartMapper.deleteCart(cart_id);
     }
 
     @Transactional(propagation=Propagation.REQUIRED,readOnly=true)
     @Override
-    public Cart findCartById(Integer cartId) {
-        return cartMapper.findCartById(cartId);
+    public Cart findCartById(Integer cart_id) {
+        return cartMapper.findCartById(cart_id);
     }
 
 }

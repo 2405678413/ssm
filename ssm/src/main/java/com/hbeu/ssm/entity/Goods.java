@@ -3,6 +3,8 @@ package com.hbeu.ssm.entity;
 
 import java.io.Serializable;
 import java.math.BigDecimal;
+import java.sql.Timestamp;
+import java.util.Date;
 
 public class Goods implements Serializable {
 
@@ -23,6 +25,16 @@ public class Goods implements Serializable {
     private BigDecimal goods_tejia;
 
     private char state; // 0下架  1上架  2已售完
+
+    private Timestamp createtime;
+
+    public Timestamp getCreatetime() {
+        return createtime;
+    }
+
+    public void setCreatetime(Timestamp createtime) {
+        this.createtime = createtime;
+    }
 
     public String getGoods_id() {
         return goods_id;

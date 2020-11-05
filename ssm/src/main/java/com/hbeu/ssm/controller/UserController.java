@@ -64,5 +64,11 @@ public class UserController {
         return "index";
     }
 
+    @RequestMapping("/userlist")
+    public String list(Map map){
+        map.put("user",userService.list());
+        return "userList";
+    }
+
 
 }
