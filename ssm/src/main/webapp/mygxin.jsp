@@ -133,9 +133,10 @@
 					<div class="tx clearfix">
 						<div class="fl clearfix">
 							<a href="#" class="fl"><img src="${pageContext.request.contextPath}/img/tx.png"/></a>
-							<p class="fl"><span>六六六</span><a href="${pageContext.request.contextPath}/user/mygrxx">修改个人信息></a></p>
+							<p class="fl"><span><a>${user.user_realname}</a></span><a href="${pageContext.request.contextPath}/user/mygrxx">修改个人信息></a></p>
 						</div>
-						<div class="fr">绑定邮箱：12****4@**.com</div>
+						<div class="fr">绑定邮箱：<a>${user.user_email}</a></div>
+
 					</div>
 					<div class="bott">
 						<div class="clearfix">
