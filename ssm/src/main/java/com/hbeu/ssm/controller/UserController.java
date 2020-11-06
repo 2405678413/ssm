@@ -57,6 +57,13 @@ public class UserController {
         return "forget";
     }
 
+    @RequestMapping("/out")
+    public String out(HttpSession session){
+        session.invalidate();
+        return "index";
+    }
+
+
     @RequestMapping( "/mygxin")
     public String mygxin(){
         return "mygxin";
@@ -75,7 +82,7 @@ public class UserController {
     @RequestMapping("/userlist")
     public String list(Map map){
         map.put("user",userService.list());
-        return "userList";
+        return "/houtai/userList";
     }
 
 

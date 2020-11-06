@@ -2,6 +2,7 @@ package com.hbeu.ssm.entity;
 
 import java.io.Serializable;
 import java.sql.Date;
+import java.sql.Timestamp;
 
 public class User implements Serializable {
 
@@ -18,6 +19,7 @@ public class User implements Serializable {
     private String user_tel;
     private String user_email;
     private String user_state;
+    private Timestamp create_time;
 
     public String getUser_id() {
         return user_id;
@@ -97,5 +99,13 @@ public class User implements Serializable {
 
     public void setBirthday(Date birthday) {
         this.birthday = birthday;
+    }
+
+    public Timestamp getCreate_time() {
+        return create_time;
+    }
+
+    public void setCreate_time(Timestamp create_time) {
+        this.create_time = create_time;
     }
 }
